@@ -1,0 +1,1801 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dabf9a830906858f064312de76212e45 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_dabf9a830906858f064312de76212e45" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_dabf9a830906858f064312de76212e45 = L.map(
+                "map_dabf9a830906858f064312de76212e45",
+                {
+                    center: [13.0827, 80.2707],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_990afc27214188604e386c9b8aadbb04 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_990afc27214188604e386c9b8aadbb04.addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+            var marker_5bc85ee5d28e49e26a913ca799a3c660 = L.marker(
+                [12.9492787, 80.2091685],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_82f17777f45aa5e33d68881e86949bdd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a9230f677c37a4752c83bbf42714afb1 = $(`<div id="html_a9230f677c37a4752c83bbf42714afb1" style="width: 100.0%; height: 100.0%;">     <b>Dr.Kamakshi Memorial Hospital</b><br>     6/13, 3rd Cross Street, Kasthuribai Nagar, Adyar<br>     Latitude: 12.9492787<br>     Longitude: 80.2091685     </div>`)[0];
+                popup_82f17777f45aa5e33d68881e86949bdd.setContent(html_a9230f677c37a4752c83bbf42714afb1);
+            
+        
+
+        marker_5bc85ee5d28e49e26a913ca799a3c660.bindPopup(popup_82f17777f45aa5e33d68881e86949bdd)
+        ;
+
+        
+    
+    
+            marker_5bc85ee5d28e49e26a913ca799a3c660.bindTooltip(
+                `<div>
+                     Dr.Kamakshi Memorial Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_907afaaad79e81b1940e5d3501789438 = L.marker(
+                [13.038873, 80.192755],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_a7198e6e460eefc9b964e95a01a59ddf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1b38883ade2eb97123242ae381412299 = $(`<div id="html_1b38883ade2eb97123242ae381412299" style="width: 100.0%; height: 100.0%;">     <b>Vijaya Hospital</b><br>     No.434, N.S.K.Salai, Vadapalani<br>     Latitude: 13.038873<br>     Longitude: 80.192755     </div>`)[0];
+                popup_a7198e6e460eefc9b964e95a01a59ddf.setContent(html_1b38883ade2eb97123242ae381412299);
+            
+        
+
+        marker_907afaaad79e81b1940e5d3501789438.bindPopup(popup_a7198e6e460eefc9b964e95a01a59ddf)
+        ;
+
+        
+    
+    
+            marker_907afaaad79e81b1940e5d3501789438.bindTooltip(
+                `<div>
+                     Vijaya Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_565074a135369a984c299058a56520c8 = L.marker(
+                [13.0101759, 80.2586997],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_05d6852d17b03b405b6122a94291ad71 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a2772b00d32d3e4f7a19969363ed1f03 = $(`<div id="html_a2772b00d32d3e4f7a19969363ed1f03" style="width: 100.0%; height: 100.0%;">     <b>Fortis Malar Hospital</b><br>     Gandhi Nagar, 52, First Main Road, Gandhi nagar, Adyar<br>     Latitude: 13.0101759<br>     Longitude: 80.2586997     </div>`)[0];
+                popup_05d6852d17b03b405b6122a94291ad71.setContent(html_a2772b00d32d3e4f7a19969363ed1f03);
+            
+        
+
+        marker_565074a135369a984c299058a56520c8.bindPopup(popup_05d6852d17b03b405b6122a94291ad71)
+        ;
+
+        
+    
+    
+            marker_565074a135369a984c299058a56520c8.bindTooltip(
+                `<div>
+                     Fortis Malar Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6c1d7f25016e5eb8d5e85dd3e0cccea9 = L.marker(
+                [13.0211808, 80.1858412],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_943717d64dfffdeb423174b4104ababc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b602719ba7929c2d78feee18f91774a4 = $(`<div id="html_b602719ba7929c2d78feee18f91774a4" style="width: 100.0%; height: 100.0%;">     <b>MIOT Hospitals</b><br>     Manapakkam, 4/112, Mount Poonamalle Road<br>     Latitude: 13.0211808<br>     Longitude: 80.1858412     </div>`)[0];
+                popup_943717d64dfffdeb423174b4104ababc.setContent(html_b602719ba7929c2d78feee18f91774a4);
+            
+        
+
+        marker_6c1d7f25016e5eb8d5e85dd3e0cccea9.bindPopup(popup_943717d64dfffdeb423174b4104ababc)
+        ;
+
+        
+    
+    
+            marker_6c1d7f25016e5eb8d5e85dd3e0cccea9.bindTooltip(
+                `<div>
+                     MIOT Hospitals
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9b077a71c79e20b3d92e1c21b8746583 = L.marker(
+                [13.060131, 80.2523656],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_9044ce75984d46bdae33d54b0d722bbb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cb92ca6a6b20bbfc018a75ba7e870168 = $(`<div id="html_cb92ca6a6b20bbfc018a75ba7e870168" style="width: 100.0%; height: 100.0%;">     <b>Apollo Childrens Hospital</b><br>     No.15, Thousand Lights, Shafee Mohammed Road<br>     Latitude: 13.060131<br>     Longitude: 80.2523656     </div>`)[0];
+                popup_9044ce75984d46bdae33d54b0d722bbb.setContent(html_cb92ca6a6b20bbfc018a75ba7e870168);
+            
+        
+
+        marker_9b077a71c79e20b3d92e1c21b8746583.bindPopup(popup_9044ce75984d46bdae33d54b0d722bbb)
+        ;
+
+        
+    
+    
+            marker_9b077a71c79e20b3d92e1c21b8746583.bindTooltip(
+                `<div>
+                     Apollo Childrens Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e72695c27e3fdde746b18faaf74ff646 = L.marker(
+                [13.0177957, 80.2711008],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_d169b6d0ade996552847c7ce73f4a5b0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_65af2abdbd0620751c8a2c9517f181ab = $(`<div id="html_65af2abdbd0620751c8a2c9517f181ab" style="width: 100.0%; height: 100.0%;">     <b>Apollo Specialty Hospital</b><br>     320, Anna Salai<br>     Latitude: 13.0177957<br>     Longitude: 80.2711008     </div>`)[0];
+                popup_d169b6d0ade996552847c7ce73f4a5b0.setContent(html_65af2abdbd0620751c8a2c9517f181ab);
+            
+        
+
+        marker_e72695c27e3fdde746b18faaf74ff646.bindPopup(popup_d169b6d0ade996552847c7ce73f4a5b0)
+        ;
+
+        
+    
+    
+            marker_e72695c27e3fdde746b18faaf74ff646.bindTooltip(
+                `<div>
+                     Apollo Specialty Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1f0aced5238dcf92a28b5918501959dc = L.marker(
+                [13.0273509, 80.2567528],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_aeb68baf7efe5de2cf0b809188290742 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c4f4e9320cb36aee12669ac4fed2ee72 = $(`<div id="html_c4f4e9320cb36aee12669ac4fed2ee72" style="width: 100.0%; height: 100.0%;">     <b>Billroth Hospital</b><br>     43, Lakshmi Talkies Road, Shenoy Nagar<br>     Latitude: 13.0273509<br>     Longitude: 80.2567528     </div>`)[0];
+                popup_aeb68baf7efe5de2cf0b809188290742.setContent(html_c4f4e9320cb36aee12669ac4fed2ee72);
+            
+        
+
+        marker_1f0aced5238dcf92a28b5918501959dc.bindPopup(popup_aeb68baf7efe5de2cf0b809188290742)
+        ;
+
+        
+    
+    
+            marker_1f0aced5238dcf92a28b5918501959dc.bindTooltip(
+                `<div>
+                     Billroth Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_453a8027f77bb88a2b7a9ae871d3dd84 = L.marker(
+                [13.0859961, 80.1870589],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_8e72f42cce44aff281d83df3f4dc0e8a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_778e61b10a8e64ff0484debfd8e4af3d = $(`<div id="html_778e61b10a8e64ff0484debfd8e4af3d" style="width: 100.0%; height: 100.0%;">     <b>Madras Medical Mission Hospital - Institute of Cardio Vascular Diseases</b><br>     4 - A, Dr.J.Jayalalitha Nagar, Mogappair<br>     Latitude: 13.0859961<br>     Longitude: 80.1870589     </div>`)[0];
+                popup_8e72f42cce44aff281d83df3f4dc0e8a.setContent(html_778e61b10a8e64ff0484debfd8e4af3d);
+            
+        
+
+        marker_453a8027f77bb88a2b7a9ae871d3dd84.bindPopup(popup_8e72f42cce44aff281d83df3f4dc0e8a)
+        ;
+
+        
+    
+    
+            marker_453a8027f77bb88a2b7a9ae871d3dd84.bindTooltip(
+                `<div>
+                     Madras Medical Mission Hospital - Institute of Cardio Vascular Diseases
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8682f4fe4a8fbcef86a8316c0811d9f6 = L.marker(
+                [13.0554597, 80.2118365],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_b6c44fe5560a6acd06ce474e6124945b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_47884de2a65fb7052252d15a6493be33 = $(`<div id="html_47884de2a65fb7052252d15a6493be33" style="width: 100.0%; height: 100.0%;">     <b>Aakash Hospital</b><br>     Thiruvottriyur, No.393/1, T H Road<br>     Latitude: 13.0554597<br>     Longitude: 80.2118365     </div>`)[0];
+                popup_b6c44fe5560a6acd06ce474e6124945b.setContent(html_47884de2a65fb7052252d15a6493be33);
+            
+        
+
+        marker_8682f4fe4a8fbcef86a8316c0811d9f6.bindPopup(popup_b6c44fe5560a6acd06ce474e6124945b)
+        ;
+
+        
+    
+    
+            marker_8682f4fe4a8fbcef86a8316c0811d9f6.bindTooltip(
+                `<div>
+                     Aakash Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_94cdcc9862ce253623411221e22eb91b = L.marker(
+                [13.0573636, 80.2459063],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_2cdb484b5e2964acc986289cb05a0aa1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_35f04220490b9ca8a075b128df51b07a = $(`<div id="html_35f04220490b9ca8a075b128df51b07a" style="width: 100.0%; height: 100.0%;">     <b>Kanchi Kamakoti Childs Trust Hospital</b><br>     12 - A, Nageswara Road, Nungambakkam<br>     Latitude: 13.0573636<br>     Longitude: 80.2459063     </div>`)[0];
+                popup_2cdb484b5e2964acc986289cb05a0aa1.setContent(html_35f04220490b9ca8a075b128df51b07a);
+            
+        
+
+        marker_94cdcc9862ce253623411221e22eb91b.bindPopup(popup_2cdb484b5e2964acc986289cb05a0aa1)
+        ;
+
+        
+    
+    
+            marker_94cdcc9862ce253623411221e22eb91b.bindTooltip(
+                `<div>
+                     Kanchi Kamakoti Childs Trust Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7fe6875003c22a4a3657bc2fba887939 = L.marker(
+                [13.1289367, 80.2905623],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_2c5543389e9bfb4fd89f8c825b4741a6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fccb0b40d249e9a54cbb220007813066 = $(`<div id="html_fccb0b40d249e9a54cbb220007813066" style="width: 100.0%; height: 100.0%;">     <b>Apollo Hospitals, Tondiarpet</b><br>     No.645, TH Road, Tondiarpet<br>     Latitude: 13.1289367<br>     Longitude: 80.2905623     </div>`)[0];
+                popup_2c5543389e9bfb4fd89f8c825b4741a6.setContent(html_fccb0b40d249e9a54cbb220007813066);
+            
+        
+
+        marker_7fe6875003c22a4a3657bc2fba887939.bindPopup(popup_2c5543389e9bfb4fd89f8c825b4741a6)
+        ;
+
+        
+    
+    
+            marker_7fe6875003c22a4a3657bc2fba887939.bindTooltip(
+                `<div>
+                     Apollo Hospitals, Tondiarpet
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_048b27e4b6404c5f8b70c8ccf3388ae8 = L.marker(
+                [13.0432845, 80.2724013],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_b6cd3284236851a96a89a077b8bae27a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_057ace2468e2c7ee2bb1b74c91423737 = $(`<div id="html_057ace2468e2c7ee2bb1b74c91423737" style="width: 100.0%; height: 100.0%;">     <b>CSI Kalyani Hospital</b><br>     15, Dr.Radha Krishnan Salai, Mylapore<br>     Latitude: 13.0432845<br>     Longitude: 80.2724013     </div>`)[0];
+                popup_b6cd3284236851a96a89a077b8bae27a.setContent(html_057ace2468e2c7ee2bb1b74c91423737);
+            
+        
+
+        marker_048b27e4b6404c5f8b70c8ccf3388ae8.bindPopup(popup_b6cd3284236851a96a89a077b8bae27a)
+        ;
+
+        
+    
+    
+            marker_048b27e4b6404c5f8b70c8ccf3388ae8.bindTooltip(
+                `<div>
+                     CSI Kalyani Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6d657250cfcc2d784276acdfda262a14 = L.marker(
+                [13.0376198, 80.2619625],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_33678074bdb84e1e9754004c5dfcea8b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_325300dc16f60e2aa6a40659e6587418 = $(`<div id="html_325300dc16f60e2aa6a40659e6587418" style="width: 100.0%; height: 100.0%;">     <b>Chennai Meenakshi Multispeciality Hospital</b><br>     New No.72, Old No.148, Luz Church Road, Mylapore<br>     Latitude: 13.0376198<br>     Longitude: 80.2619625     </div>`)[0];
+                popup_33678074bdb84e1e9754004c5dfcea8b.setContent(html_325300dc16f60e2aa6a40659e6587418);
+            
+        
+
+        marker_6d657250cfcc2d784276acdfda262a14.bindPopup(popup_33678074bdb84e1e9754004c5dfcea8b)
+        ;
+
+        
+    
+    
+            marker_6d657250cfcc2d784276acdfda262a14.bindTooltip(
+                `<div>
+                     Chennai Meenakshi Multispeciality Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8473feb6ddca6ad2d267dfe9690f0c27 = L.marker(
+                [13.0806801, 80.2486159],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_23cbf8da3c1e9c28242d8270ef4b6edf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_02dec7ddbb120694ecaedce97ffcc31a = $(`<div id="html_02dec7ddbb120694ecaedce97ffcc31a" style="width: 100.0%; height: 100.0%;">     <b>Aditya Hospital, Kilpauk</b><br>     7, Barnaby Road, Kilpauk<br>     Latitude: 13.0806801<br>     Longitude: 80.2486159     </div>`)[0];
+                popup_23cbf8da3c1e9c28242d8270ef4b6edf.setContent(html_02dec7ddbb120694ecaedce97ffcc31a);
+            
+        
+
+        marker_8473feb6ddca6ad2d267dfe9690f0c27.bindPopup(popup_23cbf8da3c1e9c28242d8270ef4b6edf)
+        ;
+
+        
+    
+    
+            marker_8473feb6ddca6ad2d267dfe9690f0c27.bindTooltip(
+                `<div>
+                     Aditya Hospital, Kilpauk
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2785df9f35916bfe92b22d4710fbac59 = L.marker(
+                [13.036525, 80.1567342],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_320f8cb70b487327d8d8e55764085d18 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7b1bcef7215b78c4d4535070daf86345 = $(`<div id="html_7b1bcef7215b78c4d4535070daf86345" style="width: 100.0%; height: 100.0%;">     <b>Parvathy Hospital</b><br>     241, G.S.T.Road, Chromepet<br>     Latitude: 13.036525<br>     Longitude: 80.1567342     </div>`)[0];
+                popup_320f8cb70b487327d8d8e55764085d18.setContent(html_7b1bcef7215b78c4d4535070daf86345);
+            
+        
+
+        marker_2785df9f35916bfe92b22d4710fbac59.bindPopup(popup_320f8cb70b487327d8d8e55764085d18)
+        ;
+
+        
+    
+    
+            marker_2785df9f35916bfe92b22d4710fbac59.bindTooltip(
+                `<div>
+                     Parvathy Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f6cdfc0644a6ee442125703e34e60fc1 = L.marker(
+                [13.0405941, 80.1784622],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_51fb1b754348f79232ff29483d03f5c6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9aa3ba6c49fac7487fa76fd332a8daae = $(`<div id="html_9aa3ba6c49fac7487fa76fd332a8daae" style="width: 100.0%; height: 100.0%;">     <b>A.N.N.Hospital</b><br>     No.81-85, Annai Therasa Street, Indira Nagar<br>     Latitude: 13.0405941<br>     Longitude: 80.1784622     </div>`)[0];
+                popup_51fb1b754348f79232ff29483d03f5c6.setContent(html_9aa3ba6c49fac7487fa76fd332a8daae);
+            
+        
+
+        marker_f6cdfc0644a6ee442125703e34e60fc1.bindPopup(popup_51fb1b754348f79232ff29483d03f5c6)
+        ;
+
+        
+    
+    
+            marker_f6cdfc0644a6ee442125703e34e60fc1.bindTooltip(
+                `<div>
+                     A.N.N.Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cb91ae67417bf9fc1fa6bc5efeb4a622 = L.marker(
+                [13.0331935, 80.2159045],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_33fcf18c343fff49dbe8e1b292bd3cb0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cd94eb428d6b30baf45357e227c0bcb1 = $(`<div id="html_cd94eb428d6b30baf45357e227c0bcb1" style="width: 100.0%; height: 100.0%;">     <b>Ammayi Eye Hospital</b><br>     New No.80, 7th Avenue, Ashok Nagar<br>     Latitude: 13.0331935<br>     Longitude: 80.2159045     </div>`)[0];
+                popup_33fcf18c343fff49dbe8e1b292bd3cb0.setContent(html_cd94eb428d6b30baf45357e227c0bcb1);
+            
+        
+
+        marker_cb91ae67417bf9fc1fa6bc5efeb4a622.bindPopup(popup_33fcf18c343fff49dbe8e1b292bd3cb0)
+        ;
+
+        
+    
+    
+            marker_cb91ae67417bf9fc1fa6bc5efeb4a622.bindTooltip(
+                `<div>
+                     Ammayi Eye Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_95cabad59938b0b3d49505e87f82d3dc = L.marker(
+                [13.0811868, 80.2520834],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_757665b2767a77174550aa9f73ebe78c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_975483e562f53cb383395c1f92edf0b8 = $(`<div id="html_975483e562f53cb383395c1f92edf0b8" style="width: 100.0%; height: 100.0%;">     <b>Amrit Hospital</b><br>     New No.310, Mint Street, Sowcarpet<br>     Latitude: 13.0811868<br>     Longitude: 80.2520834     </div>`)[0];
+                popup_757665b2767a77174550aa9f73ebe78c.setContent(html_975483e562f53cb383395c1f92edf0b8);
+            
+        
+
+        marker_95cabad59938b0b3d49505e87f82d3dc.bindPopup(popup_757665b2767a77174550aa9f73ebe78c)
+        ;
+
+        
+    
+    
+            marker_95cabad59938b0b3d49505e87f82d3dc.bindTooltip(
+                `<div>
+                     Amrit Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ba86bfb2354c764b3ca4faf47bc4cd00 = L.marker(
+                [13.0924039, 80.2090184],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_122365e2e5736509c93f0f0158b056b4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f79b28d398caf9c18d3dd9175e186bda = $(`<div id="html_f79b28d398caf9c18d3dd9175e186bda" style="width: 100.0%; height: 100.0%;">     <b>Aashiana Hospital</b><br>     No - 1201, 6th Avenue<br>     Latitude: 13.0924039<br>     Longitude: 80.2090184     </div>`)[0];
+                popup_122365e2e5736509c93f0f0158b056b4.setContent(html_f79b28d398caf9c18d3dd9175e186bda);
+            
+        
+
+        marker_ba86bfb2354c764b3ca4faf47bc4cd00.bindPopup(popup_122365e2e5736509c93f0f0158b056b4)
+        ;
+
+        
+    
+    
+            marker_ba86bfb2354c764b3ca4faf47bc4cd00.bindTooltip(
+                `<div>
+                     Aashiana Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b2aa35d7ae3b73f03d1a48efefc97246 = L.marker(
+                [13.026013, 80.2655232],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_b201fb958fa7374a4159721c4176118f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_25b99a7dead097421381936ffacc4fec = $(`<div id="html_25b99a7dead097421381936ffacc4fec" style="width: 100.0%; height: 100.0%;">     <b>B.S.S.Hospital</b><br>     200, Ramakrishna Multi Road<br>     Latitude: 13.026013<br>     Longitude: 80.2655232     </div>`)[0];
+                popup_b201fb958fa7374a4159721c4176118f.setContent(html_25b99a7dead097421381936ffacc4fec);
+            
+        
+
+        marker_b2aa35d7ae3b73f03d1a48efefc97246.bindPopup(popup_b201fb958fa7374a4159721c4176118f)
+        ;
+
+        
+    
+    
+            marker_b2aa35d7ae3b73f03d1a48efefc97246.bindTooltip(
+                `<div>
+                     B.S.S.Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5d93063a69504ca9e20b6a99e6293563 = L.marker(
+                [13.0762065, 80.2276638],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_9a8b14b9a2e341becbf5ccee80aee113 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cd6811df362b5e0271ff4bea446a52ec = $(`<div id="html_cd6811df362b5e0271ff4bea446a52ec" style="width: 100.0%; height: 100.0%;">     <b>Billroth Health Centre</b><br>     43, Lakshmi Talkies Road<br>     Latitude: 13.0762065<br>     Longitude: 80.2276638     </div>`)[0];
+                popup_9a8b14b9a2e341becbf5ccee80aee113.setContent(html_cd6811df362b5e0271ff4bea446a52ec);
+            
+        
+
+        marker_5d93063a69504ca9e20b6a99e6293563.bindPopup(popup_9a8b14b9a2e341becbf5ccee80aee113)
+        ;
+
+        
+    
+    
+            marker_5d93063a69504ca9e20b6a99e6293563.bindTooltip(
+                `<div>
+                     Billroth Health Centre
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a1ff83bd807cd629e6b02ca83e996c09 = L.marker(
+                [13.1181104, 80.1499411],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_d364e0ac70cb55b76cd2a81f27664705 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ea76467c3d0cf0859d0b23ae831b7084 = $(`<div id="html_ea76467c3d0cf0859d0b23ae831b7084" style="width: 100.0%; height: 100.0%;">     <b>B.M.Hospital</b><br>     36, 5th Main Road, Thillai Ganga Nagar<br>     Latitude: 13.1181104<br>     Longitude: 80.1499411     </div>`)[0];
+                popup_d364e0ac70cb55b76cd2a81f27664705.setContent(html_ea76467c3d0cf0859d0b23ae831b7084);
+            
+        
+
+        marker_a1ff83bd807cd629e6b02ca83e996c09.bindPopup(popup_d364e0ac70cb55b76cd2a81f27664705)
+        ;
+
+        
+    
+    
+            marker_a1ff83bd807cd629e6b02ca83e996c09.bindTooltip(
+                `<div>
+                     B.M.Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9979643378fd862986d6cef6d741bf86 = L.marker(
+                [12.9178242, 80.190331],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_8eb0afc5d0ee012502b181cc165a6738 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bc0e349d09c6a6fb6eedfbb1c1bdff6f = $(`<div id="html_bc0e349d09c6a6fb6eedfbb1c1bdff6f" style="width: 100.0%; height: 100.0%;">     <b>SRI Balaji Hospital</b><br>     1, Lawyer Janardhan Street<br>     Latitude: 12.9178242<br>     Longitude: 80.190331     </div>`)[0];
+                popup_8eb0afc5d0ee012502b181cc165a6738.setContent(html_bc0e349d09c6a6fb6eedfbb1c1bdff6f);
+            
+        
+
+        marker_9979643378fd862986d6cef6d741bf86.bindPopup(popup_8eb0afc5d0ee012502b181cc165a6738)
+        ;
+
+        
+    
+    
+            marker_9979643378fd862986d6cef6d741bf86.bindTooltip(
+                `<div>
+                     SRI Balaji Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_397817d08c51afaf07024c5fc7866ab5 = L.marker(
+                [13.1082519, 80.2320758],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_e0a5586b3f182c0be2b0af8aff1dae78 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b8a6eee2404d4c3ba73d91f6a259c236 = $(`<div id="html_b8a6eee2404d4c3ba73d91f6a259c236" style="width: 100.0%; height: 100.0%;">     <b>Sree Balaji Medical College and Hospital</b><br>     No.7, Works Road<br>     Latitude: 13.1082519<br>     Longitude: 80.2320758     </div>`)[0];
+                popup_e0a5586b3f182c0be2b0af8aff1dae78.setContent(html_b8a6eee2404d4c3ba73d91f6a259c236);
+            
+        
+
+        marker_397817d08c51afaf07024c5fc7866ab5.bindPopup(popup_e0a5586b3f182c0be2b0af8aff1dae78)
+        ;
+
+        
+    
+    
+            marker_397817d08c51afaf07024c5fc7866ab5.bindTooltip(
+                `<div>
+                     Sree Balaji Medical College and Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_34cfed136c9714ed50661c02d7358927 = L.marker(
+                [12.9109406, 80.228211],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_55eb3fc612734fc49bfc8e55bcb8b091 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_872632f1eef8c1df057c1f6aa60a4f55 = $(`<div id="html_872632f1eef8c1df057c1f6aa60a4f55" style="width: 100.0%; height: 100.0%;">     <b>Chettinad Super Speciality Hospital</b><br>     Rajiv Gandhi Salai, Old Mahabalipuram Road<br>     Latitude: 12.9109406<br>     Longitude: 80.228211     </div>`)[0];
+                popup_55eb3fc612734fc49bfc8e55bcb8b091.setContent(html_872632f1eef8c1df057c1f6aa60a4f55);
+            
+        
+
+        marker_34cfed136c9714ed50661c02d7358927.bindPopup(popup_55eb3fc612734fc49bfc8e55bcb8b091)
+        ;
+
+        
+    
+    
+            marker_34cfed136c9714ed50661c02d7358927.bindTooltip(
+                `<div>
+                     Chettinad Super Speciality Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_94f0763f1cd11c015a0ab5643fab1155 = L.marker(
+                [12.9214137, 80.127482],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_a4065c84f6667c16bce05488984dacf1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d247a55e412e9711789b8afcb15c1d36 = $(`<div id="html_d247a55e412e9711789b8afcb15c1d36" style="width: 100.0%; height: 100.0%;">     <b>Christudas Orthopaedic Speciality Hospital</b><br>     No.9, Duraiswamy Nagar, IAF Road, Near Madras Christian College<br>     Latitude: 12.9214137<br>     Longitude: 80.127482     </div>`)[0];
+                popup_a4065c84f6667c16bce05488984dacf1.setContent(html_d247a55e412e9711789b8afcb15c1d36);
+            
+        
+
+        marker_94f0763f1cd11c015a0ab5643fab1155.bindPopup(popup_a4065c84f6667c16bce05488984dacf1)
+        ;
+
+        
+    
+    
+            marker_94f0763f1cd11c015a0ab5643fab1155.bindTooltip(
+                `<div>
+                     Christudas Orthopaedic Speciality Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ceb5e19b3c5100d9399d6af94976fa76 = L.marker(
+                [13.0553167, 80.2012868],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_6a0b65a999de2c887df085d44c401dcb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_98b77b74c00af3747e8fb614585218ec = $(`<div id="html_98b77b74c00af3747e8fb614585218ec" style="width: 100.0%; height: 100.0%;">     <b>C.M.Hospital</b><br>     No.1, 47th Street, 5th Main Road<br>     Latitude: 13.0553167<br>     Longitude: 80.2012868     </div>`)[0];
+                popup_6a0b65a999de2c887df085d44c401dcb.setContent(html_98b77b74c00af3747e8fb614585218ec);
+            
+        
+
+        marker_ceb5e19b3c5100d9399d6af94976fa76.bindPopup(popup_6a0b65a999de2c887df085d44c401dcb)
+        ;
+
+        
+    
+    
+            marker_ceb5e19b3c5100d9399d6af94976fa76.bindTooltip(
+                `<div>
+                     C.M.Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_14f5e4727dd3397aaaf779bdc3a71fe2 = L.marker(
+                [13.1178884, 80.2909912],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_2613b5248308feb7165e795788b59289 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_eeb4b7cee294d5ea561af4fa5da408b9 = $(`<div id="html_eeb4b7cee294d5ea561af4fa5da408b9" style="width: 100.0%; height: 100.0%;">     <b>C.S.I.Rainy Multi Speciality Hospital</b><br>     NO 45, GA Road, Old Washermanpet<br>     Latitude: 13.1178884<br>     Longitude: 80.2909912     </div>`)[0];
+                popup_2613b5248308feb7165e795788b59289.setContent(html_eeb4b7cee294d5ea561af4fa5da408b9);
+            
+        
+
+        marker_14f5e4727dd3397aaaf779bdc3a71fe2.bindPopup(popup_2613b5248308feb7165e795788b59289)
+        ;
+
+        
+    
+    
+            marker_14f5e4727dd3397aaaf779bdc3a71fe2.bindTooltip(
+                `<div>
+                     C.S.I.Rainy Multi Speciality Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_316795fcc41cdf9caef240448e4074c9 = L.marker(
+                [13.0847414, 80.2219681],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_9c51bfa9b0a1953f61b79b19de3245b1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0a2c4a68969fbebb996c3791374bfa7a = $(`<div id="html_0a2c4a68969fbebb996c3791374bfa7a" style="width: 100.0%; height: 100.0%;">     <b>Dr.Agarwal's Eye Hospital Ltd., Anna Nagar</b><br>     No.107, A Block, 3rd Avenue, Anna Nagar Roundana<br>     Latitude: 13.0847414<br>     Longitude: 80.2219681     </div>`)[0];
+                popup_9c51bfa9b0a1953f61b79b19de3245b1.setContent(html_0a2c4a68969fbebb996c3791374bfa7a);
+            
+        
+
+        marker_316795fcc41cdf9caef240448e4074c9.bindPopup(popup_9c51bfa9b0a1953f61b79b19de3245b1)
+        ;
+
+        
+    
+    
+            marker_316795fcc41cdf9caef240448e4074c9.bindTooltip(
+                `<div>
+                     Dr.Agarwal's Eye Hospital Ltd., Anna Nagar
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ddf8bae343978e7ca72f1495a57e4a3a = L.marker(
+                [13.1119458, 80.2952072],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_f4681955f1c4fc10a95c7ccc402d7aed = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0d046486b720b7fa35bbeebfe0c258be = $(`<div id="html_0d046486b720b7fa35bbeebfe0c258be" style="width: 100.0%; height: 100.0%;">     <b>Diabetes Research Centre and M.V.Hospital For Diabetes</b><br>     No.4, West Mada Church Street<br>     Latitude: 13.1119458<br>     Longitude: 80.2952072     </div>`)[0];
+                popup_f4681955f1c4fc10a95c7ccc402d7aed.setContent(html_0d046486b720b7fa35bbeebfe0c258be);
+            
+        
+
+        marker_ddf8bae343978e7ca72f1495a57e4a3a.bindPopup(popup_f4681955f1c4fc10a95c7ccc402d7aed)
+        ;
+
+        
+    
+    
+            marker_ddf8bae343978e7ca72f1495a57e4a3a.bindTooltip(
+                `<div>
+                     Diabetes Research Centre and M.V.Hospital For Diabetes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7a76bf83223fd215d81e58f0dba1c61e = L.marker(
+                [13.0101759, 80.2586997],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_8de896ef3327f7d6aae761b0da045343 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2399983d069eb3677a77e0c21901b253 = $(`<div id="html_2399983d069eb3677a77e0c21901b253" style="width: 100.0%; height: 100.0%;">     <b>Fortis Malar Hospital</b><br>     No.52, First Main Road, Gandhi Nagar, Adyar<br>     Latitude: 13.0101759<br>     Longitude: 80.2586997     </div>`)[0];
+                popup_8de896ef3327f7d6aae761b0da045343.setContent(html_2399983d069eb3677a77e0c21901b253);
+            
+        
+
+        marker_7a76bf83223fd215d81e58f0dba1c61e.bindPopup(popup_8de896ef3327f7d6aae761b0da045343)
+        ;
+
+        
+    
+    
+            marker_7a76bf83223fd215d81e58f0dba1c61e.bindTooltip(
+                `<div>
+                     Fortis Malar Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4169705ad14617f155253c3a72c39ace = L.marker(
+                [13.0875243, 80.1857322],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_eff7f50be2f9610d848af32ec03a9787 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6af2678b2e066d52eff6cf9d5456fc94 = $(`<div id="html_6af2678b2e066d52eff6cf9d5456fc94" style="width: 100.0%; height: 100.0%;">     <b>Frontier Lifeline Hospital</b><br>     R 30 C, Ambattur Industrial Estate Road<br>     Latitude: 13.0875243<br>     Longitude: 80.1857322     </div>`)[0];
+                popup_eff7f50be2f9610d848af32ec03a9787.setContent(html_6af2678b2e066d52eff6cf9d5456fc94);
+            
+        
+
+        marker_4169705ad14617f155253c3a72c39ace.bindPopup(popup_eff7f50be2f9610d848af32ec03a9787)
+        ;
+
+        
+    
+    
+            marker_4169705ad14617f155253c3a72c39ace.bindTooltip(
+                `<div>
+                     Frontier Lifeline Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ec2e1b1e9ed40284afc6f4ebb5ae070b = L.marker(
+                [13.0349787, 80.2519137],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_240dd1f35028c8029f53e22494d21e99 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f907dc58040237084f79e13f768937b3 = $(`<div id="html_f907dc58040237084f79e13f768937b3" style="width: 100.0%; height: 100.0%;">     <b>Girishwari Hospital Pvt Ltd</b><br>     19, K.B Dasan Road (SIET College Road), Alwarpet<br>     Latitude: 13.0349787<br>     Longitude: 80.2519137     </div>`)[0];
+                popup_240dd1f35028c8029f53e22494d21e99.setContent(html_f907dc58040237084f79e13f768937b3);
+            
+        
+
+        marker_ec2e1b1e9ed40284afc6f4ebb5ae070b.bindPopup(popup_240dd1f35028c8029f53e22494d21e99)
+        ;
+
+        
+    
+    
+            marker_ec2e1b1e9ed40284afc6f4ebb5ae070b.bindTooltip(
+                `<div>
+                     Girishwari Hospital Pvt Ltd
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b72f351282421917cc9eb9c958fc11e3 = L.marker(
+                [13.0772244, 80.2387532],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_aac957187e40193a7712e02c6dd623c4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5cecc740da3976096cc58eed09d0a3a1 = $(`<div id="html_5cecc740da3976096cc58eed09d0a3a1" style="width: 100.0%; height: 100.0%;">     <b>Guest Hospital</b><br>     372, Poonamallee High Road<br>     Latitude: 13.0772244<br>     Longitude: 80.2387532     </div>`)[0];
+                popup_aac957187e40193a7712e02c6dd623c4.setContent(html_5cecc740da3976096cc58eed09d0a3a1);
+            
+        
+
+        marker_b72f351282421917cc9eb9c958fc11e3.bindPopup(popup_aac957187e40193a7712e02c6dd623c4)
+        ;
+
+        
+    
+    
+            marker_b72f351282421917cc9eb9c958fc11e3.bindTooltip(
+                `<div>
+                     Guest Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_67ec0149d267b6efc1334a6f2a8d524d = L.marker(
+                [13.0282655, 80.235353],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_ad37ba6fef13ecd1a2f493e6dc1b2d13 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5d1308491b9ac893eaba6ade9f025b17 = $(`<div id="html_5d1308491b9ac893eaba6ade9f025b17" style="width: 100.0%; height: 100.0%;">     <b>Huma Specialists Hospital and Research Centre Pvt Ltd</b><br>     786 Anna Salai, CIT Nagar West<br>     Latitude: 13.0282655<br>     Longitude: 80.235353     </div>`)[0];
+                popup_ad37ba6fef13ecd1a2f493e6dc1b2d13.setContent(html_5d1308491b9ac893eaba6ade9f025b17);
+            
+        
+
+        marker_67ec0149d267b6efc1334a6f2a8d524d.bindPopup(popup_ad37ba6fef13ecd1a2f493e6dc1b2d13)
+        ;
+
+        
+    
+    
+            marker_67ec0149d267b6efc1334a6f2a8d524d.bindTooltip(
+                `<div>
+                     Huma Specialists Hospital and Research Centre Pvt Ltd
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0f9a11edcd1d211395ad048eb808fd1a = L.marker(
+                [12.9931653, 80.257204],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_db7e57da8c9bb1bd2620e6c4b8ff4d90 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5a6724fa71940658dd31eafcadaf1101 = $(`<div id="html_5a6724fa71940658dd31eafcadaf1101" style="width: 100.0%; height: 100.0%;">     <b>Impcops Hospital</b><br>     34-37, Kalki Krishnamurthy Salai<br>     Latitude: 12.9931653<br>     Longitude: 80.257204     </div>`)[0];
+                popup_db7e57da8c9bb1bd2620e6c4b8ff4d90.setContent(html_5a6724fa71940658dd31eafcadaf1101);
+            
+        
+
+        marker_0f9a11edcd1d211395ad048eb808fd1a.bindPopup(popup_db7e57da8c9bb1bd2620e6c4b8ff4d90)
+        ;
+
+        
+    
+    
+            marker_0f9a11edcd1d211395ad048eb808fd1a.bindTooltip(
+                `<div>
+                     Impcops Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0b733850db7b2ef5eba23e5fb82c7af7 = L.marker(
+                [13.0027883, 80.207025],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_6a2884d7fdbae9d47d785acff2c7671e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b65469345599b66b6382ac3c36724f7d = $(`<div id="html_b65469345599b66b6382ac3c36724f7d" style="width: 100.0%; height: 100.0%;">     <b>Jaya Hospital</b><br>     No.3, Kothanda Nadar Nagar, Sriperumbudur, Nenmeli<br>     Latitude: 13.0027883<br>     Longitude: 80.207025     </div>`)[0];
+                popup_6a2884d7fdbae9d47d785acff2c7671e.setContent(html_b65469345599b66b6382ac3c36724f7d);
+            
+        
+
+        marker_0b733850db7b2ef5eba23e5fb82c7af7.bindPopup(popup_6a2884d7fdbae9d47d785acff2c7671e)
+        ;
+
+        
+    
+    
+            marker_0b733850db7b2ef5eba23e5fb82c7af7.bindTooltip(
+                `<div>
+                     Jaya Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cbaaf48ee89db574f9aa40bb121d5a7c = L.marker(
+                [13.0435469, 80.2636349],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_4ac8d8715a59d6118e83805d558c9de5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a7a60730233f67ce62503d72b8077ae2 = $(`<div id="html_a7a60730233f67ce62503d72b8077ae2" style="width: 100.0%; height: 100.0%;">     <b>Laksha Hospital</b><br>     No.15, P.S.Sivasamy Salai Road, P.S.Sivasamy Salai<br>     Latitude: 13.0435469<br>     Longitude: 80.2636349     </div>`)[0];
+                popup_4ac8d8715a59d6118e83805d558c9de5.setContent(html_a7a60730233f67ce62503d72b8077ae2);
+            
+        
+
+        marker_cbaaf48ee89db574f9aa40bb121d5a7c.bindPopup(popup_4ac8d8715a59d6118e83805d558c9de5)
+        ;
+
+        
+    
+    
+            marker_cbaaf48ee89db574f9aa40bb121d5a7c.bindTooltip(
+                `<div>
+                     Laksha Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_76d5c687195bf844b9243bfd73b2da6c = L.marker(
+                [13.0430125, 80.2371521],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_153ca8cea457d1ef4741c0319a3ef482 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_584d4938c81e8f8d766bfe17cfed5457 = $(`<div id="html_584d4938c81e8f8d766bfe17cfed5457" style="width: 100.0%; height: 100.0%;">     <b>Laser and Laparascopic Hospital</b><br>     No.121 G.N.Chetty Road<br>     Latitude: 13.0430125<br>     Longitude: 80.2371521     </div>`)[0];
+                popup_153ca8cea457d1ef4741c0319a3ef482.setContent(html_584d4938c81e8f8d766bfe17cfed5457);
+            
+        
+
+        marker_76d5c687195bf844b9243bfd73b2da6c.bindPopup(popup_153ca8cea457d1ef4741c0319a3ef482)
+        ;
+
+        
+    
+    
+            marker_76d5c687195bf844b9243bfd73b2da6c.bindTooltip(
+                `<div>
+                     Laser and Laparascopic Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9c7e533e37708b357be94f3f616fea8a = L.marker(
+                [13.0641019, 80.2514516],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_6060c5d31612beffc3b3230a27cb8854 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4c56feec7a0ba06084b8e57839c78f9c = $(`<div id="html_4c56feec7a0ba06084b8e57839c78f9c" style="width: 100.0%; height: 100.0%;">     <b>Apollo Hospitals, Greams Lane</b><br>     21, Off Greams Road, Greams Lane<br>     Latitude: 13.0641019<br>     Longitude: 80.2514516     </div>`)[0];
+                popup_6060c5d31612beffc3b3230a27cb8854.setContent(html_4c56feec7a0ba06084b8e57839c78f9c);
+            
+        
+
+        marker_9c7e533e37708b357be94f3f616fea8a.bindPopup(popup_6060c5d31612beffc3b3230a27cb8854)
+        ;
+
+        
+    
+    
+            marker_9c7e533e37708b357be94f3f616fea8a.bindTooltip(
+                `<div>
+                     Apollo Hospitals, Greams Lane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9a53faf53e6c0d768279255b0fea50a1 = L.marker(
+                [13.07018965, 80.23666256],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_35caba5c15df1f0739a618865c28b053 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f14ac8807a627f2ed121b47dfbccdba7 = $(`<div id="html_f14ac8807a627f2ed121b47dfbccdba7" style="width: 100.0%; height: 100.0%;">     <b>Prashanth Fertility Research Centre</b><br>     Chetpet, No.77, Harrington Road<br>     Latitude: 13.07018965<br>     Longitude: 80.23666256     </div>`)[0];
+                popup_35caba5c15df1f0739a618865c28b053.setContent(html_f14ac8807a627f2ed121b47dfbccdba7);
+            
+        
+
+        marker_9a53faf53e6c0d768279255b0fea50a1.bindPopup(popup_35caba5c15df1f0739a618865c28b053)
+        ;
+
+        
+    
+    
+            marker_9a53faf53e6c0d768279255b0fea50a1.bindTooltip(
+                `<div>
+                     Prashanth Fertility Research Centre
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a5a8e606088fb4dec596bee9287b001b = L.marker(
+                [13.03951338, 80.14359758],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_34d8a0c5f4049df5329688aa5d6e3986 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ce8d782d033c1fcd5c78e138a6c1747c = $(`<div id="html_ce8d782d033c1fcd5c78e138a6c1747c" style="width: 100.0%; height: 100.0%;">     <b>Sri Ramachandra Medical Centre (SRMC)</b><br>     No 1, Ramachandra Nagar, Porur<br>     Latitude: 13.03951338<br>     Longitude: 80.14359758     </div>`)[0];
+                popup_34d8a0c5f4049df5329688aa5d6e3986.setContent(html_ce8d782d033c1fcd5c78e138a6c1747c);
+            
+        
+
+        marker_a5a8e606088fb4dec596bee9287b001b.bindPopup(popup_34d8a0c5f4049df5329688aa5d6e3986)
+        ;
+
+        
+    
+    
+            marker_a5a8e606088fb4dec596bee9287b001b.bindTooltip(
+                `<div>
+                     Sri Ramachandra Medical Centre (SRMC)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9febca7260aec802945942964569c4a0 = L.marker(
+                [13.07881613, 80.23349366],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_bf2fd03884fd7d7b2edf13bc1c110e86 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_319c3ef1254c2a28945eedf72eeacae9 = $(`<div id="html_319c3ef1254c2a28945eedf72eeacae9" style="width: 100.0%; height: 100.0%;">     <b>Lifeline Multi Speciality Hospital</b><br>     5/639, Old Mahabalipuram Road, Kandanchavadi, Perungudi<br>     Latitude: 13.07881613<br>     Longitude: 80.23349366     </div>`)[0];
+                popup_bf2fd03884fd7d7b2edf13bc1c110e86.setContent(html_319c3ef1254c2a28945eedf72eeacae9);
+            
+        
+
+        marker_9febca7260aec802945942964569c4a0.bindPopup(popup_bf2fd03884fd7d7b2edf13bc1c110e86)
+        ;
+
+        
+    
+    
+            marker_9febca7260aec802945942964569c4a0.bindTooltip(
+                `<div>
+                     Lifeline Multi Speciality Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d604c1a08477cfdfa9b1f1d687a0b633 = L.marker(
+                [13.08209456, 80.24525739],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_e28f478b31b41c76b607b61f05036f33 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_498e1d729540486c6cf34a34dbde4d38 = $(`<div id="html_498e1d729540486c6cf34a34dbde4d38" style="width: 100.0%; height: 100.0%;">     <b>KKR Ent Hospital and Research Institute (P) Ltd</b><br>     No: 827, Poonamallee High Road<br>     Latitude: 13.08209456<br>     Longitude: 80.24525739     </div>`)[0];
+                popup_e28f478b31b41c76b607b61f05036f33.setContent(html_498e1d729540486c6cf34a34dbde4d38);
+            
+        
+
+        marker_d604c1a08477cfdfa9b1f1d687a0b633.bindPopup(popup_e28f478b31b41c76b607b61f05036f33)
+        ;
+
+        
+    
+    
+            marker_d604c1a08477cfdfa9b1f1d687a0b633.bindTooltip(
+                `<div>
+                     KKR Ent Hospital and Research Institute (P) Ltd
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7d3db7782010c449c56f8d16d44c27c6 = L.marker(
+                [13.04936691, 80.24533387],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_d4db729497afc2c6238c449f4c9d504b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_55e71a514d627d1e04828f8b1dfe68b2 = $(`<div id="html_55e71a514d627d1e04828f8b1dfe68b2" style="width: 100.0%; height: 100.0%;">     <b>Bharathi Rajaa Hospitals (P) Ltd</b><br>     No.20, Gopathi Narayanaswami Chetty Road<br>     Latitude: 13.04936691<br>     Longitude: 80.24533387     </div>`)[0];
+                popup_d4db729497afc2c6238c449f4c9d504b.setContent(html_55e71a514d627d1e04828f8b1dfe68b2);
+            
+        
+
+        marker_7d3db7782010c449c56f8d16d44c27c6.bindPopup(popup_d4db729497afc2c6238c449f4c9d504b)
+        ;
+
+        
+    
+    
+            marker_7d3db7782010c449c56f8d16d44c27c6.bindTooltip(
+                `<div>
+                     Bharathi Rajaa Hospitals (P) Ltd
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3107a750623abf2b96ca597911afd02a = L.marker(
+                [13.04416175, 80.27201133],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_a3e5495d51214825199edac2f26027b6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f7f1ce1e7feb3b329f6a395783002710 = $(`<div id="html_f7f1ce1e7feb3b329f6a395783002710" style="width: 100.0%; height: 100.0%;">     <b>C.S.I.Kalyani Multi Speciality Hospital</b><br>     No.15, Dr.Radha Krishnan Salai<br>     Latitude: 13.04416175<br>     Longitude: 80.27201133     </div>`)[0];
+                popup_a3e5495d51214825199edac2f26027b6.setContent(html_f7f1ce1e7feb3b329f6a395783002710);
+            
+        
+
+        marker_3107a750623abf2b96ca597911afd02a.bindPopup(popup_a3e5495d51214825199edac2f26027b6)
+        ;
+
+        
+    
+    
+            marker_3107a750623abf2b96ca597911afd02a.bindTooltip(
+                `<div>
+                     C.S.I.Kalyani Multi Speciality Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b12f50beb4424fc808b9048a1ab52388 = L.marker(
+                [12.85264476, 80.0620526],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_7d7478ea54db690b1c192b8094208fa6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cae36373427314d165d09e57b7a85f2b = $(`<div id="html_cae36373427314d165d09e57b7a85f2b" style="width: 100.0%; height: 100.0%;">     <b>Deepam Hospital (P) Ltd.</b><br>     No.107A, G.S.T.Road, Chromepet<br>     Latitude: 12.85264476<br>     Longitude: 80.0620526     </div>`)[0];
+                popup_7d7478ea54db690b1c192b8094208fa6.setContent(html_cae36373427314d165d09e57b7a85f2b);
+            
+        
+
+        marker_b12f50beb4424fc808b9048a1ab52388.bindPopup(popup_7d7478ea54db690b1c192b8094208fa6)
+        ;
+
+        
+    
+    
+            marker_b12f50beb4424fc808b9048a1ab52388.bindTooltip(
+                `<div>
+                     Deepam Hospital (P) Ltd.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a96961c7fd23e332d1440989b90749e9 = L.marker(
+                [13.12217184, 80.22371317],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_00b81d4b15f0b749cdaea59a13056276 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b94d121bac286627a12dcdd446d7b245 = $(`<div id="html_b94d121bac286627a12dcdd446d7b245" style="width: 100.0%; height: 100.0%;">     <b>Eswar Medical Foundation</b><br>     No.1, Bharathi Nagar, Redhills Road<br>     Latitude: 13.12217184<br>     Longitude: 80.22371317     </div>`)[0];
+                popup_00b81d4b15f0b749cdaea59a13056276.setContent(html_b94d121bac286627a12dcdd446d7b245);
+            
+        
+
+        marker_a96961c7fd23e332d1440989b90749e9.bindPopup(popup_00b81d4b15f0b749cdaea59a13056276)
+        ;
+
+        
+    
+    
+            marker_a96961c7fd23e332d1440989b90749e9.bindTooltip(
+                `<div>
+                     Eswar Medical Foundation
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8f2e7bc0d340dd6b4ff254ec7eda0316 = L.marker(
+                [12.98574193, 80.19079119],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_c888b5f39d012ce7b48e962f0207407d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e26958fe654bf1ad7af8249c23cf63f8 = $(`<div id="html_e26958fe654bf1ad7af8249c23cf63f8" style="width: 100.0%; height: 100.0%;">     <b>Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd</b><br>     24 and 26, 'Swathi', 29 Th Street<br>     Latitude: 12.98574193<br>     Longitude: 80.19079119     </div>`)[0];
+                popup_c888b5f39d012ce7b48e962f0207407d.setContent(html_e26958fe654bf1ad7af8249c23cf63f8);
+            
+        
+
+        marker_8f2e7bc0d340dd6b4ff254ec7eda0316.bindPopup(popup_c888b5f39d012ce7b48e962f0207407d)
+        ;
+
+        
+    
+    
+            marker_8f2e7bc0d340dd6b4ff254ec7eda0316.bindTooltip(
+                `<div>
+                     Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3f769e5a93baddea0d0ec548fceb0970 = L.marker(
+                [12.92591607, 80.11237896],
+                {
+}
+            ).addTo(map_dabf9a830906858f064312de76212e45);
+        
+    
+        var popup_57517ff18f1a8e9bff843ca5d43a82ca = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1ff420d8dbcf93f130bdae6d99096474 = $(`<div id="html_1ff420d8dbcf93f130bdae6d99096474" style="width: 100.0%; height: 100.0%;">     <b>Hopkins ENT Hospitals</b><br>     No 5/45, Shanmugam Road, Opposite to old SBI building<br>     Latitude: 12.92591607<br>     Longitude: 80.11237896     </div>`)[0];
+                popup_57517ff18f1a8e9bff843ca5d43a82ca.setContent(html_1ff420d8dbcf93f130bdae6d99096474);
+            
+        
+
+        marker_3f769e5a93baddea0d0ec548fceb0970.bindPopup(popup_57517ff18f1a8e9bff843ca5d43a82ca)
+        ;
+
+        
+    
+    
+            marker_3f769e5a93baddea0d0ec548fceb0970.bindTooltip(
+                `<div>
+                     Hopkins ENT Hospitals
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
