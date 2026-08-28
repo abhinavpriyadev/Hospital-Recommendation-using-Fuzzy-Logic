@@ -1,0 +1,86 @@
+from ollama import chat
+import time
+import json
+
+MODEL = "qwen3:8b"
+
+
+def extract_medical_intent(user_input):
+
+    prompt = f"""
+Extract the medical intent from the following patient input.
+
+Return ONLY JSON.
+Do not explain anything.
+Do not provide medical advice.
+Do not diagnose the patient.
+
+Use this exact format:
+
+{{
+    "specialty": null,
+    "procedure": null,
+    "service": null,
+    "emergency": false
+}}
+
+Patient input:
+{user_input}
+"""
+
+    start = time.perf_counter()
+
+    response = chat(
+        model=MODEL,
+        messages=[
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ],
+        think=False,
+        keep_alive=-1,
+        options={
+            "num_predict": 100
+        }
+    )
+
+    runtime = time.perf_counter() - start
+
+    content = response["message"]["content"].strip()
+
+    # Remove ```json ... ``` if the model adds it
+    if content.startswith("```"):
+        content = content.replace("```json", "")
+        content = content.replace("```", "")
+        content = content.strip()
+
+    try:
+        result = json.loads(content)
+    except json.JSONDecodeError:
+        result = content
+
+    return result, runtime
+
+
+print("Qwen Hospital Input Parser")
+print("Type 'exit' to quit.\n")
+
+while True:
+
+    user_input = input("Patient: ")
+
+    if user_input.lower() == "exit":
+        break
+
+    result, runtime = extract_medical_intent(user_input)
+
+    print("\nQwen output:")
+    
+    if isinstance(result, dict):
+        print(json.dumps(result, indent=4))
+    else:
+        print(result)
+
+    print(f"\nRuntime: {runtime:.2f} seconds")
+    print("-" * 50)
