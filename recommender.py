@@ -126,13 +126,15 @@ def recommend(specialty, user_lat=DEFAULT_LAT, user_lon=DEFAULT_LON, emergency=F
     elig["Estimated_Cost_INR"] = elig["average_treatment_cost"]
     elig["Cost_Score"], comparable = normalise_cost(list(elig["Estimated_Cost_INR"]))
 
-    scores, fired = [], []
+    scores, fired, details = [], [], []
     for _, r in elig.iterrows():
         res = evaluate(r["Distance_km"], None if pd.isna(r["Cost_Score"]) else r["Cost_Score"],
                        r["Emergency_Level"], emergency_request=bool(emergency))
         scores.append(res["score"]); fired.append(res["fired_rules"])
+        details.append({"memberships": res["memberships"], "fired": res["fired_rules"][:6]})
     elig["Suitability_Score"] = scores
     elig["_fired"] = fired
+    elig["FIS_Detail"] = details
     elig["Suitability_Label"] = elig["Suitability_Score"].apply(label_for)
 
     # informational matches only - never used to exclude a hospital
@@ -155,7 +157,7 @@ def recommend(specialty, user_lat=DEFAULT_LAT, user_lon=DEFAULT_LON, emergency=F
             "minimum_treatment_cost", "maximum_treatment_cost", "Cost_Basis", "Cost_Score", "Emergency_Level",
             "Emergency_Evidence", "Suitability_Score", "Suitability_Label", "Rule_Set", "Explanation",
             "Procedure_Match", "Service_Match", "Insurance_Providers", "Emergency_Num", "Website",
-            "Latitude", "Longitude"]
+            "Latitude", "Longitude", "FIS_Detail"]
     res = elig[cols + ["_fired"]].copy()
     res["Distance_km"] = res["Distance_km"].round(2)
     res["Cost_Score"] = res["Cost_Score"].round(1)
@@ -178,10 +180,9 @@ def build_map(results, user_lat, user_lon, out_path="results_map.html"):
         import folium
     except ImportError:
         raise SystemExit("folium is not installed: pip install folium")
-    m = folium.Map(location=[user_lat, user_lon], zoom_start=11, tiles=None)
-    folium.TileLayer(
-    tiles="https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
-    attr="Tiles &copy; Esri", name="Esri Streets").add_to(m)
+    # CartoDB tiles work when the HTML is opened straight from disk (file://). The default OpenStreetMap
+    # tiles are blocked in that case because the browser sends no Referer header.
+    m = folium.Map(location=[user_lat, user_lon], zoom_start=11, tiles="CartoDB positron")
     folium.Marker([user_lat, user_lon], tooltip="Your location", icon=folium.Icon(color="blue", icon="user", prefix="fa")).add_to(m)
     colour = {"High": "green", "Moderate": "orange", "Low": "red"}
     for _, r in results.iterrows():

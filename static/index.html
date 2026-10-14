@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hospital Finder - Fuzzy Logic Recommendation (prototype)</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
+<style>
+:root{--bg:#f4f7f7;--card:#fff;--ink:#14282b;--mute:#5b6f72;--line:#dbe5e6;--brand:#0f766e;--brand2:#115e59;
+--hi:#16a34a;--mod:#d97706;--lo:#dc2626;--warn:#fef3c7;--warnink:#78350f;--red:#fee2e2;--redink:#7f1d1d}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1a1c;--card:#16262a;--ink:#e6f0f1;--mute:#9db3b6;--line:#26393d;--brand:#2dd4bf;--brand2:#5eead4;--warn:#3b2f0b;--warnink:#fde68a;--red:#3b1212;--redink:#fecaca}}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg);display:grid;grid-template-columns:450px 1fr}
+#side{display:flex;flex-direction:column;height:100vh;overflow:hidden;border-right:1px solid var(--line);background:var(--bg)}
+#top{padding:14px 16px 10px;background:var(--card);border-bottom:1px solid var(--line)}
+h1{font-size:17px;margin:0 0 2px;color:var(--brand)}
+.sub{color:var(--mute);font-size:12px;margin-bottom:10px}
+.row{display:flex;gap:8px;align-items:center}
+input[type=text],select{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:inherit}
+button{font:inherit;cursor:pointer;border:1px solid var(--brand);background:var(--brand);color:#fff;border-radius:8px;padding:9px 14px;white-space:nowrap}
+button.ghost{background:transparent;color:var(--brand)}
+button:disabled{opacity:.5;cursor:default}
+label.chk{display:flex;gap:6px;align-items:center;color:var(--mute);font-size:12.5px;margin-top:6px}
+.field{margin-top:10px}.field>span{display:block;font-size:12px;color:var(--mute);margin-bottom:3px}
+details.manual{margin-top:10px}details.manual summary{cursor:pointer;color:var(--brand);font-size:12.5px}
+#scroll{flex:1;overflow:auto;padding:12px 16px 8px}
+#status{color:var(--mute);padding:6px 0}
+.spin{display:inline-block;width:12px;height:12px;border:2px solid var(--line);border-top-color:var(--brand);border-radius:50%;animation:s .8s linear infinite;vertical-align:-2px;margin-right:6px}
+@keyframes s{to{transform:rotate(360deg)}}
+.banner{border-radius:8px;padding:9px 11px;margin-bottom:10px;font-size:13px}
+.banner.red{background:var(--red);color:var(--redink)}.banner.warn{background:var(--warn);color:var(--warnink)}
+.understood{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 10px;margin-bottom:10px;font-size:13px}
+.tag{display:inline-block;background:rgba(15,118,110,.12);color:var(--brand2);border-radius:999px;padding:1px 9px;font-size:12px;margin:2px 4px 2px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin-bottom:10px;cursor:pointer}
+.card.sel{border-color:var(--brand);box-shadow:0 0 0 2px rgba(15,118,110,.25)}
+.head{display:flex;gap:10px;align-items:flex-start}
+.badge{flex:none;width:28px;height:28px;border-radius:50%;color:#fff;font-weight:600;display:flex;align-items:center;justify-content:center}
+.name{font-weight:600}.addr{color:var(--mute);font-size:12px}
+.scorebar{height:7px;border-radius:4px;background:var(--line);margin:8px 0 3px;overflow:hidden}.scorebar i{display:block;height:100%}
+.scoreline{display:flex;justify-content:space-between;font-size:12.5px}
+.chips{margin-top:6px}.chip{display:inline-block;border:1px solid var(--line);border-radius:6px;padding:1px 7px;font-size:12px;margin:2px 4px 2px 0;color:var(--mute)}
+.chip.on{border-color:var(--brand);color:var(--brand2);background:rgba(15,118,110,.1);font-weight:600}
+.chip.em-c{border-color:var(--hi);color:var(--hi)}.chip.em-p{border-color:var(--mod);color:var(--mod)}
+.actions{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}.actions button,.actions a{padding:5px 10px;font-size:12.5px;border-radius:7px;text-decoration:none}
+.actions a{border:1px solid var(--line);color:var(--ink)}
+details.why{margin-top:6px;font-size:12.5px;color:var(--mute)}details.why summary{cursor:pointer;color:var(--brand)}
+details.why table{border-collapse:collapse;margin:6px 0;width:100%}details.why td{padding:1px 6px 1px 0;vertical-align:top}
+#foot{padding:8px 16px;border-top:1px solid var(--line);background:var(--card);font-size:11.5px;color:var(--mute)}
+#mapwrap{position:relative;height:100vh}#map{height:100%;width:100%}
+#routeBar{position:absolute;z-index:1000;left:50%;transform:translateX(-50%);top:12px;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:8px 12px;box-shadow:0 2px 10px rgba(0,0,0,.2);max-width:92%;display:none;font-size:13px}
+#routeBar a{color:var(--brand)}#routeBar button{padding:2px 8px;margin-left:8px;font-size:12px}
+.pin{width:30px;height:30px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);border:2px solid #fff;box-shadow:0 1px 5px rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center}
+.pin span{transform:rotate(45deg);color:#fff;font-weight:700;font-size:12px}
+.pin.big{width:38px;height:38px}
+.me{width:18px;height:18px;border-radius:50%;background:#2563eb;border:3px solid #fff;box-shadow:0 0 0 3px rgba(37,99,235,.35)}
+.legend{background:var(--card);color:var(--ink);padding:6px 10px;border-radius:8px;border:1px solid var(--line);font-size:12px;line-height:1.7}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}
+.leaflet-popup-content button{padding:4px 10px;font-size:12px;margin-top:4px}
+@media (max-width:860px){body{grid-template-columns:1fr;grid-template-rows:46vh auto}#mapwrap{order:-1;height:46vh}#side{height:auto;overflow:visible;border-right:0}#scroll{overflow:visible}}
+</style>
+</head>
+<body>
+<aside id="side">
+  <div id="top">
+    <h1>Hospital Finder</h1>
+    <div class="sub">Fuzzy-logic decision support for Chennai hospitals. Not a diagnosis or medical advice.</div>
+    <div class="row">
+      <input id="q" type="text" placeholder="Describe what you need, e.g. &quot;chest pain&quot; or &quot;eye surgery&quot;" autocomplete="off">
+      <button id="btnSearch">Search</button>
+    </div>
+    <details class="manual"><summary>Or choose a specialty manually</summary>
+      <div class="row" style="margin-top:8px"><select id="spec"></select><button id="btnManual" class="ghost">Go</button></div>
+      <label class="chk"><input type="checkbox" id="emerg"> This is urgent / emergency-related</label>
+    </details>
+    <div class="field"><span>Insurance provider (demo data)</span>
+      <div class="row"><select id="prov"><option value="">Any provider</option></select></div>
+      <label class="chk"><input type="checkbox" id="only" checked> Only show hospitals listing this provider</label>
+    </div>
+    <div class="row" style="margin-top:10px">
+      <button id="btnLoc" class="ghost">Use my location</button>
+      <span class="sub" style="margin:0">or drag the blue dot on the map</span>
+    </div>
+  </div>
+  <div id="scroll"><div id="status">Describe what you need, or pick a specialty.</div><div id="results"></div></div>
+  <div id="foot">Costs are specialty-level <b>reference estimates</b>, not hospital quotes. Insurance listings are <b>synthetic demo data</b>, not real empanelment. Score = fuzzy ranking aid, not a quality or success measure.</div>
+</aside>
+<main id="mapwrap"><div id="map"></div><div id="routeBar"></div></main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const COLORS={High:'#16a34a',Moderate:'#d97706',Low:'#dc2626'};
+const inr=new Intl.NumberFormat('en-IN');
+const state={lat:13.0827,lon:80.2707,parsed:null,results:[],markers:{},selected:null,routeLayer:null,showAll:false,busy:false};
+
+/* ---------- map ---------- */
+const map=L.map('map').setView([state.lat,state.lon],11);
+const esri=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',{attribution:'Tiles &copy; Esri',maxZoom:19}).addTo(map);
+const osm=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:19});
+const sat=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{attribution:'Tiles &copy; Esri',maxZoom:19});
+L.control.layers({'Streets (Esri)':esri,'OpenStreetMap':osm,'Satellite (Esri)':sat}).addTo(map);
+L.control.scale({imperial:false}).addTo(map);
+const legend=L.control({position:'bottomright'});
+legend.onAdd=()=>{const d=L.DomUtil.create('div','legend');d.innerHTML='<i style="background:#16a34a"></i>High suitability<br><i style="background:#d97706"></i>Moderate<br><i style="background:#dc2626"></i>Low<br><i style="background:#2563eb"></i>You';return d};
+legend.addTo(map);
+const user=L.marker([state.lat,state.lon],{draggable:true,icon:L.divIcon({className:'',html:'<div class="me"></div>',iconSize:[18,18],iconAnchor:[9,9]}),zIndexOffset:1000}).addTo(map).bindTooltip('You are here (drag to move)');
+const group=L.layerGroup().addTo(map);
+
+function pinIcon(rank,label,big){return L.divIcon({className:'',html:`<div class="pin${big?' big':''}" style="background:${COLORS[label]||'#64748b'}"><span>${rank}</span></div>`,iconSize:[30,30],iconAnchor:[15,38],popupAnchor:[0,-34]})}
+function setUser(lat,lon,rerun){state.lat=lat;state.lon=lon;user.setLatLng([lat,lon]);clearRoute();if(rerun&&state.parsed)searchManual(false)}
+user.on('dragend',()=>{const p=user.getLatLng();setUser(p.lat,p.lng,true)});
+$('#btnLoc').onclick=()=>{
+  if(!navigator.geolocation){setStatus('Location is not supported by this browser.');return}
+  setStatus('<span class="spin"></span>Getting your location...');
+  navigator.geolocation.getCurrentPosition(p=>{setUser(p.coords.latitude,p.coords.longitude,true);map.setView([p.coords.latitude,p.coords.longitude],13);if(!state.parsed)setStatus('Location set. Now describe what you need.')},
+   e=>setStatus('Could not get your location ('+esc(e.message)+'). Drag the blue dot instead.'),{enableHighAccuracy:true,timeout:15000});
+};
+
+/* ---------- routing (OSRM public demo server; straight-line fallback) ---------- */
+function clearRoute(){if(state.routeLayer){map.removeLayer(state.routeLayer);state.routeLayer=null}$('#routeBar').style.display='none'}
+async function routeTo(id){
+  const h=state.results.find(r=>r.Hospital_ID===id);if(!h)return;
+  select(id,false);clearRoute();
+  const bar=$('#routeBar');bar.style.display='block';bar.innerHTML='<span class="spin"></span>Finding road route to '+esc(h.Hospital_Name)+'...';
+  const gm=`https://www.google.com/maps/dir/?api=1&origin=${state.lat},${state.lon}&destination=${h.Latitude},${h.Longitude}&travelmode=driving`;
+  try{
+    const url=`https://router.project-osrm.org/route/v1/driving/${state.lon},${state.lat};${h.Longitude},${h.Latitude}?overview=full&geometries=geojson`;
+    const j=await (await fetch(url)).json();
+    if(j.code!=='Ok')throw new Error(j.code);
+    const r=j.routes[0];
+    state.routeLayer=L.geoJSON(r.geometry,{style:{color:'#2563eb',weight:6,opacity:.85}}).addTo(map);
+    map.fitBounds(state.routeLayer.getBounds(),{padding:[60,60]});
+    bar.innerHTML=`<b>${esc(h.Hospital_Name)}</b> &middot; ${(r.distance/1000).toFixed(1)} km by road &middot; about ${Math.round(r.duration/60)} min &middot; <a href="${gm}" target="_blank" rel="noopener">Open in Google Maps</a><button class="ghost" onclick="clearRoute()">Clear</button>`;
+  }catch(e){
+    state.routeLayer=L.polyline([[state.lat,state.lon],[h.Latitude,h.Longitude]],{color:'#2563eb',weight:4,dashArray:'8 8'}).addTo(map);
+    map.fitBounds(state.routeLayer.getBounds(),{padding:[60,60]});
+    bar.innerHTML=`<b>${esc(h.Hospital_Name)}</b> &middot; road route unavailable (offline or routing service busy) &middot; showing straight line, ${h.Distance_km} km &middot; <a href="${gm}" target="_blank" rel="noopener">Open in Google Maps</a><button class="ghost" onclick="clearRoute()">Clear</button>`;
+  }
+}
+window.routeTo=routeTo;window.clearRoute=clearRoute;
+
+/* ---------- rendering ---------- */
+function setStatus(h){$('#status').innerHTML=h}
+function setBusy(b,msg){state.busy=b;$('#btnSearch').disabled=b;$('#btnManual').disabled=b;if(b)setStatus('<span class="spin"></span>'+msg)}
+function membs(d){const out=[];for(const [g,m] of Object.entries(d.memberships)){const parts=Object.entries(m).filter(([,v])=>v>0.01).map(([k,v])=>`${k} ${v.toFixed(2)}`);out.push(`<tr><td>${g}</td><td>${parts.join(', ')||'-'}</td></tr>`)}return out.join('')}
+function emChip(l){return l==='Confirmed'?'<span class="chip em-c">Emergency care listed</span>':l==='Partial'?'<span class="chip em-p">ICU/ambulance listed only</span>':'<span class="chip">Emergency info not in dataset</span>'}
+function card(h){
+  const col=COLORS[h.Suitability_Label]||'#64748b';
+  const cost=h.Estimated_Cost_INR==null?'Cost estimate not available':`Est. Rs ${inr.format(Math.round(h.Estimated_Cost_INR))} (specialty-level)`;
+  const prov=$('#prov').value;
+  const ins=h.Insurance_Providers.map(p=>`<span class="chip${p===prov?' on':''}">${esc(p)}</span>`).join('');
+  const phone=h.Emergency_Num&&h.Emergency_Num!=='0'?h.Emergency_Num:null;
+  const pm=h.Procedure_Match?`<span class="chip">Procedure listed: ${esc(h.Procedure_Match)}</span>`:'';
+  const sm=h.Service_Match?`<span class="chip">Service listed: ${esc(h.Service_Match)}</span>`:'';
+  const web=h.Website&&/^https?:\/\//i.test(h.Website)?`<a href="${esc(h.Website)}" target="_blank" rel="noopener">Website</a>`:'';
+  const call=phone&&/^[0-9+() -]+$/.test(phone)?`<a href="tel:${esc(phone)}">Call ${esc(phone)}</a>`:'';
+  const fired=(h.FIS_Detail?.fired||[]).map(f=>`<tr><td>IF ${esc(f.rule)}</td><td>&rarr; ${f.then} (${f.strength})</td></tr>`).join('');
+  return `<div class="card" id="c-${h.Hospital_ID}" data-id="${h.Hospital_ID}">
+    <div class="head"><div class="badge" style="background:${col}">${h.Rank}</div>
+      <div style="flex:1"><div class="name">${esc(h.Hospital_Name)}</div><div class="addr">${esc(h.Address)}</div></div></div>
+    <div class="scorebar"><i style="width:${Math.max(3,h.Suitability_Score)}%;background:${col}"></i></div>
+    <div class="scoreline"><span><b>${h.Suitability_Score.toFixed(1)}</b> / 100 &middot; ${h.Suitability_Label} suitability</span><span>${h.Distance_km} km (straight line)</span></div>
+    <div class="chips"><span class="chip">${cost}</span>${emChip(h.Emergency_Level)}${pm}${sm}</div>
+    <div class="chips" title="Synthetic demonstration data">${ins}</div>
+    <details class="why"><summary>Why this rank?</summary>
+      <div>${esc(h.Explanation)}</div>
+      <table>${membs(h.FIS_Detail)}</table><div>Rules that fired:</div><table>${fired}</table>
+      <div>Cost basis: ${esc(h.Cost_Basis||'n/a')}. Reference estimate range Rs ${h.minimum_treatment_cost==null?'?':inr.format(Math.round(h.minimum_treatment_cost))} - ${h.maximum_treatment_cost==null?'?':inr.format(Math.round(h.maximum_treatment_cost))}.</div>
+    </details>
+    <div class="actions"><button onclick="event.stopPropagation();routeTo('${h.Hospital_ID}')">Directions</button>${web}${call}</div>
+  </div>`;
+}
+function render(data){
+  group.clearLayers();state.markers={};state.results=data.results;clearRoute();
+  const p=data.parsed||{};let html='';
+  if(p.emergency)html+='<div class="banner red"><b>This may be urgent.</b> If this is an emergency, call <b>112</b> now. The ranking below favours nearby hospitals with emergency care listed in the dataset; it is not medical advice.</div>';
+  if(p.specialty)html+=`<div class="understood">Understood as <span class="tag">${esc(p.specialty)}</span><span class="tag">${p.emergency?'emergency-related':'routine'}</span>${p.procedure?`<span class="tag">procedure: ${esc(p.procedure)}</span>`:''}${p.service?`<span class="tag">service: ${esc(p.service)}</span>`:''}${data.runtime?`<span class="sub"> (${data.runtime.toFixed(1)} s)</span>`:''}</div>`;
+  (data.notes||[]).forEach(n=>html+=`<div class="banner warn">${esc(n)}</div>`);
+  if(data.error&&!data.results.length)html+=`<div class="banner warn">${esc(data.error)}</div>`;
+  if(data.results.length){
+    let info=`${data.matching} hospital${data.matching===1?'':'s'}`+(data.provider&&data.only_provider?` listing ${esc(data.provider)} (of ${data.total_eligible} offering this specialty)`:' offering this specialty');
+    info+=` &middot; ranked by fuzzy suitability. Procedure/service matches are informational only.`;
+    if(data.provider&&data.only_provider)info+=' Ranks are the original ranks; insurance does not affect the score.';
+    html+=`<div class="sub">${info}</div>`;
+    html+=data.results.map(card).join('');
+    if(data.matching>data.results.length)html+='<button class="ghost" id="more" style="width:100%;margin-bottom:10px">Show all '+data.matching+'</button>';
+  }else if(p.specialty){
+    html+=`<div class="banner warn">${data.provider&&data.only_provider?'No hospital offering this specialty lists '+esc(data.provider)+' in the demo data. Untick "Only show hospitals listing this provider" to see all.':'No hospital in the dataset offers this specialty.'}</div>`;
+  }
+  $('#results').innerHTML=html;setStatus('');
+  const pts=[[state.lat,state.lon]];
+  data.results.forEach(h=>{
+    const m=L.marker([h.Latitude,h.Longitude],{icon:pinIcon(h.Rank,h.Suitability_Label)}).addTo(group);
+    m.bindPopup(`<b>#${h.Rank} ${esc(h.Hospital_Name)}</b><br>${h.Suitability_Score.toFixed(1)} (${h.Suitability_Label}) &middot; ${h.Distance_km} km<br><button onclick="routeTo('${h.Hospital_ID}')">Directions</button>`);
+    m.on('click',()=>select(h.Hospital_ID,true));
+    state.markers[h.Hospital_ID]=m;pts.push([h.Latitude,h.Longitude]);
+  });
+  if(pts.length>1)map.fitBounds(pts,{padding:[50,50],maxZoom:14});
+  const more=$('#more');if(more)more.onclick=()=>{state.showAll=true;searchManual(false)};
+  state.selected=null;
+}
+function select(id,scroll){
+  if(state.selected&&state.markers[state.selected]){const h=state.results.find(r=>r.Hospital_ID===state.selected);state.markers[state.selected].setIcon(pinIcon(h.Rank,h.Suitability_Label,false))}
+  document.querySelectorAll('.card.sel').forEach(c=>c.classList.remove('sel'));
+  state.selected=id;const h=state.results.find(r=>r.Hospital_ID===id),m=state.markers[id];
+  if(m){m.setIcon(pinIcon(h.Rank,h.Suitability_Label,true));m.openPopup()}
+  const c=$('#c-'+id);if(c){c.classList.add('sel');if(scroll)c.scrollIntoView({behavior:'smooth',block:'nearest'})}
+}
+$('#results').addEventListener('click',e=>{const c=e.target.closest('.card');if(c&&!e.target.closest('button,a,summary')){const id=c.dataset.id;select(id,false);const h=state.results.find(r=>r.Hospital_ID===id);map.flyTo([h.Latitude,h.Longitude],Math.max(map.getZoom(),14))}});
+
+/* ---------- search ---------- */
+async function post(payload,msg){
+  setBusy(true,msg);
+  try{
+    const body={...payload,lat:state.lat,lon:state.lon,provider:$('#prov').value,only_provider:$('#only').checked,show_all:state.showAll};
+    const r=await fetch('/api/search',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+    const data=await r.json();
+    if(!r.ok){setStatus('<div class="banner warn">'+esc(data.error||'Request failed')+'</div>');return}
+    if(data.parsed&&data.parsed.specialty){state.parsed=data.parsed;$('#spec').value=data.parsed.specialty;$('#emerg').checked=!!data.parsed.emergency}
+    render(data);
+  }catch(e){setStatus('<div class="banner warn">Could not reach the server: '+esc(e.message)+'</div>')}
+  finally{setBusy(false)}
+}
+function searchText(){const t=$('#q').value.trim();if(!t)return;state.showAll=false;post({text:t},'Understanding your request with Qwen (can take a while on CPU)...')}
+function searchManual(reset=true){
+  if(reset){state.showAll=false;state.parsed={specialty:$('#spec').value,emergency:$('#emerg').checked,procedure:null,service:null}}
+  const p=state.parsed;if(!p)return;
+  post({specialty:p.specialty,emergency:p.emergency,procedure:p.procedure,service:p.service},'Ranking hospitals...');
+}
+$('#btnSearch').onclick=searchText;
+$('#q').addEventListener('keydown',e=>{if(e.key==='Enter')searchText()});
+$('#btnManual').onclick=()=>searchManual(true);
+$('#prov').onchange=$('#only').onchange=()=>{if(state.parsed){state.showAll=false;searchManual(false)}};
+
+/* ---------- init ---------- */
+(async()=>{
+  const m=await (await fetch('/api/meta')).json();
+  $('#spec').innerHTML=m.specialties.map(s=>`<option>${esc(s)}</option>`).join('');
+  $('#prov').innerHTML+=m.providers.map(p=>`<option>${esc(p)}</option>`).join('');
+  if(!m.parser_available){$('#q').disabled=true;$('#btnSearch').disabled=true;$('#q').placeholder='Qwen parser unavailable - use the manual selector below';$('.manual').open=true;
+    setStatus('<div class="banner warn">The Qwen/Ollama parser is not running, so text search is off. Choose a specialty manually.</div>')}
+})();
+</script>
+</body>
+</html>
