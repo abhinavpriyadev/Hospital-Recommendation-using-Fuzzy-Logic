@@ -1,0 +1,713 @@
+Hospital_ID,Hospital_Name,Specialty,cost_unit,average_treatment_cost,minimum_treatment_cost,maximum_treatment_cost,variation_percent,treatment_multiplier,consultation_fee_reference,Cost_Basis
+H001,Dr.Kamakshi Memorial Hospital,Anaesthesiology,per treatment/procedure (estimated),5200,4400,6000,15,8,650,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Cardiology,per treatment/procedure (estimated),12600,10700,14500,15,18,700,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Cardiothoracic Surgery,per treatment/procedure (estimated),58500,43900,73100,25,65,900,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Critical Care,per treatment/procedure (estimated),24000,18000,30000,25,30,800,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Dentistry,per treatment/procedure (estimated),2700,2300,3100,15,6,450,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Dermatology,per treatment/procedure (estimated),4200,3600,4800,15,7,600,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Diabetology,per treatment/procedure (estimated),3000,2600,3400,15,5,600,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Emergency Medicine,per treatment/procedure (estimated),4800,4100,5500,15,8,600,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Endocrinology,per treatment/procedure (estimated),4900,4200,5600,15,7,700,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,ENT,per treatment/procedure (estimated),4800,4100,5500,15,8,600,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,General Medicine,per treatment/procedure (estimated),2200,1900,2500,15,4,550,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Geriatrics,per treatment/procedure (estimated),2800,2400,3200,15,5,550,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Maxillofacial Surgery,per treatment/procedure (estimated),21000,15800,26200,25,30,700,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Medical Oncology,per treatment/procedure (estimated),30000,22500,37500,25,40,750,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Nephrology,per treatment/procedure (estimated),12600,9400,15800,25,18,700,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Neurosurgery,per treatment/procedure (estimated),63800,47800,79800,25,75,850,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Neurology,per treatment/procedure (estimated),10500,8900,12100,15,15,700,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Nuclear Medicine,per treatment/procedure (estimated),16200,12200,20200,25,25,650,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Obstetrics and Gynaecology,per treatment/procedure (estimated),13800,10400,17200,25,25,550,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Ophthalmology,per treatment/procedure (estimated),7200,6100,8300,15,12,600,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Orthopaedics,per treatment/procedure (estimated),16200,12200,20200,25,25,650,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Paediatric Surgery,per treatment/procedure (estimated),33800,25400,42200,25,45,750,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Physiotherapy,per treatment/procedure (estimated),1000,800,1200,15,3,350,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Plastic Surgery,per treatment/procedure (estimated),24000,18000,30000,25,30,800,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Psychiatry,per treatment/procedure (estimated),3600,3100,4100,15,6,600,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Psychology,per treatment/procedure (estimated),1800,1500,2100,15,4,450,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Pulmonology,per treatment/procedure (estimated),8200,7000,9400,15,15,550,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Radiation Oncology,per treatment/procedure (estimated),36000,27000,45000,25,45,800,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Gastroenterology,per treatment/procedure (estimated),14000,10500,17500,25,20,700,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Surgical Oncology,per treatment/procedure (estimated),51000,38200,63800,25,60,850,Hospital-specific public-fee calibration where available
+H001,Dr.Kamakshi Memorial Hospital,Urology,per treatment/procedure (estimated),17500,13100,21900,25,25,700,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Ayurveda,per treatment/procedure (estimated),3200,2700,3700,15,5,650,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Cardiology,per treatment/procedure (estimated),15300,13000,17600,15,18,850,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Cardiothoracic Surgery,per treatment/procedure (estimated),68200,51200,85200,25,65,1050,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Vascular Surgery,per treatment/procedure (estimated),31500,23600,39400,25,35,900,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Critical Care,per treatment/procedure (estimated),28500,21400,35600,25,30,950,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Dentistry,per treatment/procedure (estimated),3300,2800,3800,15,6,550,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Dermatology,per treatment/procedure (estimated),4900,4200,5600,15,7,700,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Diabetology,per treatment/procedure (estimated),3500,3000,4000,15,5,700,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Endocrinology,per treatment/procedure (estimated),5600,4800,6400,15,7,800,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,ENT,per treatment/procedure (estimated),5600,4800,6400,15,8,700,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Family Medicine,per treatment/procedure (estimated),2600,2200,3000,15,4,650,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Gastroenterology,per treatment/procedure (estimated),17000,12800,21200,25,20,850,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,General Surgery,per treatment/procedure (estimated),7800,6600,9000,15,12,650,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Nephrology,per treatment/procedure (estimated),15300,11500,19100,25,18,850,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Neurosurgery,per treatment/procedure (estimated),75000,56200,93800,25,75,1000,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Neurology,per treatment/procedure (estimated),12800,10900,14700,15,15,850,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Nuclear Medicine,per treatment/procedure (estimated),18800,14100,23500,25,25,750,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Obstetrics and Gynaecology,per treatment/procedure (estimated),16200,12200,20200,25,25,650,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Oncology,per treatment/procedure (estimated),22800,17100,28500,25,35,650,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Ophthalmology,per treatment/procedure (estimated),8400,7100,9700,15,12,700,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Orthopaedics,per treatment/procedure (estimated),18800,14100,23500,25,25,750,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Neonatology,per treatment/procedure (estimated),13000,11000,14900,15,20,650,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Physiotherapy,per treatment/procedure (estimated),1200,1000,1400,15,3,400,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Plastic Surgery,per treatment/procedure (estimated),28500,21400,35600,25,30,950,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Psychiatry,per treatment/procedure (estimated),4200,3600,4800,15,6,700,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Pulmonology,per treatment/procedure (estimated),9800,8300,11300,15,15,650,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Radiology,per treatment/procedure (estimated),5600,4800,6400,15,8,700,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Rheumatology,per treatment/procedure (estimated),6500,5500,7500,15,10,650,Hospital-specific public-fee calibration where available
+H002,Vijaya Hospital,Urology,per treatment/procedure (estimated),20000,15000,25000,25,25,800,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Andrology,per treatment/procedure (estimated),8200,7000,9400,15,15,550,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Anaesthesiology,per treatment/procedure (estimated),5200,4400,6000,15,8,650,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Cardiology,per treatment/procedure (estimated),12600,10700,14500,15,18,700,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Critical Care,per treatment/procedure (estimated),24000,18000,30000,25,30,800,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Dentistry,per treatment/procedure (estimated),2700,2300,3100,15,6,450,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Dermatology,per treatment/procedure (estimated),4200,3600,4800,15,7,600,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Emergency Medicine,per treatment/procedure (estimated),4800,4100,5500,15,8,600,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Endocrinology,per treatment/procedure (estimated),4900,4200,5600,15,7,700,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,ENT,per treatment/procedure (estimated),4800,4100,5500,15,8,600,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Gastroenterology,per treatment/procedure (estimated),14000,10500,17500,25,20,700,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,General Surgery,per treatment/procedure (estimated),6600,5600,7600,15,12,550,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,General Medicine,per treatment/procedure (estimated),2200,1900,2500,15,4,550,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Radiology,per treatment/procedure (estimated),4800,4100,5500,15,8,600,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Neonatology,per treatment/procedure (estimated),11000,9400,12600,15,20,550,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Nephrology,per treatment/procedure (estimated),12600,9400,15800,25,18,700,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Neurosurgery,per treatment/procedure (estimated),63800,47800,79800,25,75,850,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Neurology,per treatment/procedure (estimated),10500,8900,12100,15,15,700,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Obstetrics and Gynaecology,per treatment/procedure (estimated),13800,10400,17200,25,25,550,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Oncology,per treatment/procedure (estimated),19200,14400,24000,25,35,550,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Ophthalmology,per treatment/procedure (estimated),7200,6100,8300,15,12,600,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Paediatrics,per treatment/procedure (estimated),2800,2400,3200,15,5,550,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Physiotherapy,per treatment/procedure (estimated),1000,800,1200,15,3,350,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Plastic Surgery,per treatment/procedure (estimated),24000,18000,30000,25,30,800,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Psychiatry,per treatment/procedure (estimated),3600,3100,4100,15,6,600,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Pulmonology,per treatment/procedure (estimated),8200,7000,9400,15,15,550,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Rheumatology,per treatment/procedure (estimated),5500,4700,6300,15,10,550,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Urology,per treatment/procedure (estimated),17500,13100,21900,25,25,700,Hospital-specific public-fee calibration where available
+H003,Fortis Malar Hospital,Vascular Surgery,per treatment/procedure (estimated),26200,19600,32800,25,35,750,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Anaesthesiology,per treatment/procedure (estimated),8400,7100,9700,15,8,1050,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Cardiology,per treatment/procedure (estimated),21600,18400,24800,15,18,1200,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Cardiothoracic Surgery,per treatment/procedure (estimated),97500,73100,121900,25,65,1500,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Vascular Surgery,per treatment/procedure (estimated),45500,34100,56900,25,35,1300,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Critical Care,per treatment/procedure (estimated),40500,30400,50600,25,30,1350,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Maxillofacial Surgery,per treatment/procedure (estimated),36000,27000,45000,25,30,1200,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Dermatology,per treatment/procedure (estimated),7000,6000,8000,15,7,1000,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Diabetology,per treatment/procedure (estimated),5000,4200,5800,15,5,1000,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Endocrinology,per treatment/procedure (estimated),8000,6800,9200,15,7,1150,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,ENT,per treatment/procedure (estimated),7600,6500,8700,15,8,950,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Gastroenterology,per treatment/procedure (estimated),24000,18000,30000,25,20,1200,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,General Medicine,per treatment/procedure (estimated),3600,3100,4100,15,4,900,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,General Surgery,per treatment/procedure (estimated),10800,9200,12400,15,12,900,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Radiology,per treatment/procedure (estimated),7600,6500,8700,15,8,950,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Medical Oncology,per treatment/procedure (estimated),52000,39000,65000,25,40,1300,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Nephrology,per treatment/procedure (estimated),21600,16200,27000,25,18,1200,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Neurosurgery,per treatment/procedure (estimated),108800,81600,136000,25,75,1450,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Neurology,per treatment/procedure (estimated),18000,15300,20700,15,15,1200,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Nuclear Medicine,per treatment/procedure (estimated),27500,20600,34400,25,25,1100,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Obstetrics and Gynaecology,per treatment/procedure (estimated),22500,16900,28100,25,25,900,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Ophthalmology,per treatment/procedure (estimated),12000,10200,13800,15,12,1000,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Paediatric Cardiology,per treatment/procedure (estimated),37500,28100,46900,25,30,1250,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Paediatric Surgery,per treatment/procedure (estimated),56200,42200,70200,25,45,1250,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Plastic Surgery,per treatment/procedure (estimated),40500,30400,50600,25,30,1350,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Pulmonology,per treatment/procedure (estimated),13500,11500,15500,15,15,900,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Radiation Oncology,per treatment/procedure (estimated),60800,45600,76000,25,45,1350,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Surgical Oncology,per treatment/procedure (estimated),87000,65200,108800,25,60,1450,Hospital-specific public-fee calibration where available
+H004,MIOT Hospitals,Urology,per treatment/procedure (estimated),28800,21600,36000,25,25,1150,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Adolescent Medicine,per treatment/procedure (estimated),5400,4600,6200,15,6,900,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Anaesthesiology,per treatment/procedure (estimated),8400,7100,9700,15,8,1050,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Cardiology,per treatment/procedure (estimated),21600,18400,24800,15,18,1200,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Cardiothoracic Surgery,per treatment/procedure (estimated),97500,73100,121900,25,65,1500,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Behavioural Medicine,per treatment/procedure (estimated),5400,4600,6200,15,6,900,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Critical Care,per treatment/procedure (estimated),40500,30400,50600,25,30,1350,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Dermatology,per treatment/procedure (estimated),7000,6000,8000,15,7,1000,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Emergency Medicine,per treatment/procedure (estimated),8000,6800,9200,15,8,1000,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,ENT,per treatment/procedure (estimated),7600,6500,8700,15,8,950,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Endocrinology,per treatment/procedure (estimated),8000,6800,9200,15,7,1150,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Gastroenterology,per treatment/procedure (estimated),24000,18000,30000,25,20,1200,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Paediatrics,per treatment/procedure (estimated),4500,3800,5200,15,5,900,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Haematology,per treatment/procedure (estimated),13500,11500,15500,15,15,900,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Radiology,per treatment/procedure (estimated),7600,6500,8700,15,8,950,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Infectious Diseases,per treatment/procedure (estimated),9000,7600,10400,15,10,900,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Neonatology,per treatment/procedure (estimated),18000,15300,20700,15,20,900,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Neurology,per treatment/procedure (estimated),18000,15300,20700,15,15,1200,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Neurosurgery,per treatment/procedure (estimated),108800,81600,136000,25,75,1450,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Nephrology,per treatment/procedure (estimated),21600,16200,27000,25,18,1200,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Urology,per treatment/procedure (estimated),28800,21600,36000,25,25,1150,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Occupational Therapy,per treatment/procedure (estimated),2400,2000,2800,15,4,600,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Orthopaedics,per treatment/procedure (estimated),26200,19600,32800,25,25,1050,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Paediatric Surgery,per treatment/procedure (estimated),56200,42200,70200,25,45,1250,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Plastic Surgery,per treatment/procedure (estimated),40500,30400,50600,25,30,1350,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Preventive Medicine,per treatment/procedure (estimated),4500,3800,5200,15,5,900,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Psychiatry,per treatment/procedure (estimated),5700,4800,6600,15,6,950,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Pulmonology,per treatment/procedure (estimated),13500,11500,15500,15,15,900,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Allergy and Immunology,per treatment/procedure (estimated),7200,6100,8300,15,8,900,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Physiotherapy,per treatment/procedure (estimated),1800,1500,2100,15,3,600,Hospital-specific public-fee calibration where available
+H005,Apollo Childrens Hospital,Speech and Hearing Therapy,per treatment/procedure (estimated),2400,2000,2800,15,4,600,Hospital-specific public-fee calibration where available
+H006,Apollo Specialty Hospital,ENT,per treatment/procedure (estimated),9200,7800,10600,15,8,1150,Hospital-specific public-fee calibration where available
+H006,Apollo Specialty Hospital,Medical Oncology,per treatment/procedure (estimated),62000,46500,77500,25,40,1550,Hospital-specific public-fee calibration where available
+H006,Apollo Specialty Hospital,Neurosurgery,per treatment/procedure (estimated),127500,95600,159400,25,75,1700,Hospital-specific public-fee calibration where available
+H006,Apollo Specialty Hospital,Neurology,per treatment/procedure (estimated),21800,18500,25100,15,15,1450,Hospital-specific public-fee calibration where available
+H006,Apollo Specialty Hospital,Oncology,per treatment/procedure (estimated),38500,28900,48100,25,35,1100,Hospital-specific public-fee calibration where available
+H006,Apollo Specialty Hospital,Orthopaedics,per treatment/procedure (estimated),31200,23400,39000,25,25,1250,Hospital-specific public-fee calibration where available
+H006,Apollo Specialty Hospital,Plastic Surgery,per treatment/procedure (estimated),48000,36000,60000,25,30,1600,Hospital-specific public-fee calibration where available
+H006,Apollo Specialty Hospital,Surgical Oncology,per treatment/procedure (estimated),102000,76500,127500,25,60,1700,Hospital-specific public-fee calibration where available
+H007,Billroth Hospital,Cardiology,per treatment/procedure (estimated),15300,13000,17600,15,18,850,Hospital-specific public-fee calibration where available
+H007,Billroth Hospital,Cardiothoracic Surgery,per treatment/procedure (estimated),68200,51200,85200,25,65,1050,Hospital-specific public-fee calibration where available
+H007,Billroth Hospital,Pulmonology,per treatment/procedure (estimated),9800,8300,11300,15,15,650,Hospital-specific public-fee calibration where available
+H007,Billroth Hospital,Diabetology,per treatment/procedure (estimated),3500,3000,4000,15,5,700,Hospital-specific public-fee calibration where available
+H007,Billroth Hospital,ENT,per treatment/procedure (estimated),5600,4800,6400,15,8,700,Hospital-specific public-fee calibration where available
+H007,Billroth Hospital,Gastroenterology,per treatment/procedure (estimated),17000,12800,21200,25,20,850,Hospital-specific public-fee calibration where available
+H007,Billroth Hospital,Pathology,per treatment/procedure (estimated),3200,2700,3700,15,5,650,Hospital-specific public-fee calibration where available
+H007,Billroth Hospital,Medical Oncology,per treatment/procedure (estimated),36000,27000,45000,25,40,900,Hospital-specific public-fee calibration where available
+H007,Billroth Hospital,Nephrology,per treatment/procedure (estimated),15300,11500,19100,25,18,850,Hospital-specific public-fee calibration where available
+H007,Billroth Hospital,Neurosurgery,per treatment/procedure (estimated),75000,56200,93800,25,75,1000,Hospital-specific public-fee calibration where available
+H007,Billroth Hospital,Neurology,per treatment/procedure (estimated),12800,10900,14700,15,15,850,Hospital-specific public-fee calibration where available
+H007,Billroth Hospital,Nuclear Medicine,per treatment/procedure (estimated),18800,14100,23500,25,25,750,Hospital-specific public-fee calibration where available
+H007,Billroth Hospital,Obstetrics and Gynaecology,per treatment/procedure (estimated),16200,12200,20200,25,25,650,Hospital-specific public-fee calibration where available
+H007,Billroth Hospital,Oncology,per treatment/procedure (estimated),22800,17100,28500,25,35,650,Hospital-specific public-fee calibration where available
+H007,Billroth Hospital,Orthopaedics,per treatment/procedure (estimated),18800,14100,23500,25,25,750,Hospital-specific public-fee calibration where available
+H007,Billroth Hospital,Plastic Surgery,per treatment/procedure (estimated),28500,21400,35600,25,30,950,Hospital-specific public-fee calibration where available
+H007,Billroth Hospital,Radiology,per treatment/procedure (estimated),5600,4800,6400,15,8,700,Hospital-specific public-fee calibration where available
+H007,Billroth Hospital,Surgical Oncology,per treatment/procedure (estimated),60000,45000,75000,25,60,1000,Hospital-specific public-fee calibration where available
+H007,Billroth Hospital,Vascular Surgery,per treatment/procedure (estimated),31500,23600,39400,25,35,900,Hospital-specific public-fee calibration where available
+H008,Madras Medical Mission Hospital - Institute of Cardio Vascular Diseases,Anaesthesiology,per treatment/procedure (estimated),4800,4100,5500,15,8,600,Private-hospital prototype estimate
+H008,Madras Medical Mission Hospital - Institute of Cardio Vascular Diseases,Cardiology,per treatment/procedure (estimated),11700,9900,13500,15,18,650,Private-hospital prototype estimate
+H008,Madras Medical Mission Hospital - Institute of Cardio Vascular Diseases,Diabetology,per treatment/procedure (estimated),2800,2400,3200,15,5,550,Private-hospital prototype estimate
+H008,Madras Medical Mission Hospital - Institute of Cardio Vascular Diseases,Obstetrics and Gynaecology,per treatment/procedure (estimated),12500,9400,15600,25,25,500,Private-hospital prototype estimate
+H008,Madras Medical Mission Hospital - Institute of Cardio Vascular Diseases,Pathology,per treatment/procedure (estimated),2500,2100,2900,15,5,500,Private-hospital prototype estimate
+H008,Madras Medical Mission Hospital - Institute of Cardio Vascular Diseases,Nuclear Medicine,per treatment/procedure (estimated),15000,11200,18800,25,25,600,Private-hospital prototype estimate
+H008,Madras Medical Mission Hospital - Institute of Cardio Vascular Diseases,Paediatric Cardiology,per treatment/procedure (estimated),21000,15800,26200,25,30,700,Private-hospital prototype estimate
+H008,Madras Medical Mission Hospital - Institute of Cardio Vascular Diseases,Pulmonology,per treatment/procedure (estimated),7500,6400,8600,15,15,500,Private-hospital prototype estimate
+H009,Aakash Hospital,Anaesthesiology,per treatment/procedure (estimated),4800,4100,5500,15,8,600,Private-hospital prototype estimate
+H009,Aakash Hospital,Cardiology,per treatment/procedure (estimated),11700,9900,13500,15,18,650,Private-hospital prototype estimate
+H009,Aakash Hospital,Pulmonology,per treatment/procedure (estimated),7500,6400,8600,15,15,500,Private-hospital prototype estimate
+H009,Aakash Hospital,Dentistry,per treatment/procedure (estimated),2700,2300,3100,15,6,450,Private-hospital prototype estimate
+H009,Aakash Hospital,Maxillofacial Surgery,per treatment/procedure (estimated),19500,14600,24400,25,30,650,Private-hospital prototype estimate
+H009,Aakash Hospital,Dermatology,per treatment/procedure (estimated),3800,3200,4400,15,7,550,Private-hospital prototype estimate
+H009,Aakash Hospital,Diabetology,per treatment/procedure (estimated),2800,2400,3200,15,5,550,Private-hospital prototype estimate
+H009,Aakash Hospital,Dietetics,per treatment/procedure (estimated),1000,800,1200,15,3,350,Private-hospital prototype estimate
+H009,Aakash Hospital,Endocrinology,per treatment/procedure (estimated),4600,3900,5300,15,7,650,Private-hospital prototype estimate
+H009,Aakash Hospital,ENT,per treatment/procedure (estimated),4400,3700,5100,15,8,550,Private-hospital prototype estimate
+H009,Aakash Hospital,Gastroenterology,per treatment/procedure (estimated),13000,9800,16200,25,20,650,Private-hospital prototype estimate
+H009,Aakash Hospital,General Medicine,per treatment/procedure (estimated),2000,1700,2300,15,4,500,Private-hospital prototype estimate
+H009,Aakash Hospital,General Surgery,per treatment/procedure (estimated),6000,5100,6900,15,12,500,Private-hospital prototype estimate
+H009,Aakash Hospital,Radiology,per treatment/procedure (estimated),4400,3700,5100,15,8,550,Private-hospital prototype estimate
+H009,Aakash Hospital,Nephrology,per treatment/procedure (estimated),11700,8800,14600,25,18,650,Private-hospital prototype estimate
+H009,Aakash Hospital,Neurosurgery,per treatment/procedure (estimated),60000,45000,75000,25,75,800,Private-hospital prototype estimate
+H009,Aakash Hospital,Neurology,per treatment/procedure (estimated),9800,8300,11300,15,15,650,Private-hospital prototype estimate
+H009,Aakash Hospital,Obstetrics and Gynaecology,per treatment/procedure (estimated),12500,9400,15600,25,25,500,Private-hospital prototype estimate
+H009,Aakash Hospital,Oncology,per treatment/procedure (estimated),17500,13100,21900,25,35,500,Private-hospital prototype estimate
+H009,Aakash Hospital,Ophthalmology,per treatment/procedure (estimated),6600,5600,7600,15,12,550,Private-hospital prototype estimate
+H009,Aakash Hospital,Orthopaedics,per treatment/procedure (estimated),15000,11200,18800,25,25,600,Private-hospital prototype estimate
+H009,Aakash Hospital,Pathology,per treatment/procedure (estimated),2500,2100,2900,15,5,500,Private-hospital prototype estimate
+H009,Aakash Hospital,Paediatrics,per treatment/procedure (estimated),2500,2100,2900,15,5,500,Private-hospital prototype estimate
+H009,Aakash Hospital,Physiotherapy,per treatment/procedure (estimated),1000,800,1200,15,3,350,Private-hospital prototype estimate
+H009,Aakash Hospital,Plastic Surgery,per treatment/procedure (estimated),22500,16900,28100,25,30,750,Private-hospital prototype estimate
+H009,Aakash Hospital,Psychiatry,per treatment/procedure (estimated),3300,2800,3800,15,6,550,Private-hospital prototype estimate
+H009,Aakash Hospital,Urology,per treatment/procedure (estimated),16200,12200,20200,25,25,650,Private-hospital prototype estimate
+H010,Kanchi Kamakoti Childs Trust Hospital,Anaesthesiology,per treatment/procedure (estimated),6000,5100,6900,15,8,750,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,Cardiology,per treatment/procedure (estimated),15300,13000,17600,15,18,850,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,Dentistry,per treatment/procedure (estimated),3300,2800,3800,15,6,550,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,Endocrinology,per treatment/procedure (estimated),5600,4800,6400,15,7,800,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,ENT,per treatment/procedure (estimated),5600,4800,6400,15,8,700,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,Gastroenterology,per treatment/procedure (estimated),17000,12800,21200,25,20,850,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,Genetics,per treatment/procedure (estimated),6500,5500,7500,15,10,650,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,Medical Oncology,per treatment/procedure (estimated),36000,27000,45000,25,40,900,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,Microbiology,per treatment/procedure (estimated),2600,2200,3000,15,4,650,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,Neonatology,per treatment/procedure (estimated),13000,11000,14900,15,20,650,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,Nephrology,per treatment/procedure (estimated),15300,11500,19100,25,18,850,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,Neurosurgery,per treatment/procedure (estimated),75000,56200,93800,25,75,1000,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,Ophthalmology,per treatment/procedure (estimated),8400,7100,9700,15,12,700,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,Orthopaedics,per treatment/procedure (estimated),18800,14100,23500,25,25,750,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,Paediatric Surgery,per treatment/procedure (estimated),38200,28600,47800,25,45,850,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,Physiotherapy,per treatment/procedure (estimated),1200,1000,1400,15,3,400,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,Plastic Surgery,per treatment/procedure (estimated),28500,21400,35600,25,30,950,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,Psychiatry,per treatment/procedure (estimated),4200,3600,4800,15,6,700,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,Pulmonology,per treatment/procedure (estimated),9800,8300,11300,15,15,650,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,Radiology,per treatment/procedure (estimated),5600,4800,6400,15,8,700,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,Speech and Hearing Therapy,per treatment/procedure (estimated),1600,1400,1800,15,4,400,Hospital-specific public-fee calibration where available
+H010,Kanchi Kamakoti Childs Trust Hospital,Urology,per treatment/procedure (estimated),20000,15000,25000,25,25,800,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Anaesthesiology,per treatment/procedure (estimated),6000,5100,6900,15,8,750,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Cardiology,per treatment/procedure (estimated),15300,13000,17600,15,18,850,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Cardiothoracic Surgery,per treatment/procedure (estimated),68200,51200,85200,25,65,1050,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Dermatology,per treatment/procedure (estimated),4900,4200,5600,15,7,700,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Diabetology,per treatment/procedure (estimated),3500,3000,4000,15,5,700,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Endocrinology,per treatment/procedure (estimated),5600,4800,6400,15,7,800,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",ENT,per treatment/procedure (estimated),5600,4800,6400,15,8,700,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Gastroenterology,per treatment/procedure (estimated),17000,12800,21200,25,20,850,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Geriatrics,per treatment/procedure (estimated),3200,2700,3700,15,5,650,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Haematology,per treatment/procedure (estimated),9800,8300,11300,15,15,650,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Neonatology,per treatment/procedure (estimated),13000,11000,14900,15,20,650,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Nephrology,per treatment/procedure (estimated),15300,11500,19100,25,18,850,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Neurology,per treatment/procedure (estimated),12800,10900,14700,15,15,850,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Obstetrics and Gynaecology,per treatment/procedure (estimated),16200,12200,20200,25,25,650,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Ophthalmology,per treatment/procedure (estimated),8400,7100,9700,15,12,700,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Orthopaedics,per treatment/procedure (estimated),18800,14100,23500,25,25,750,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Paediatrics,per treatment/procedure (estimated),3200,2700,3700,15,5,650,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Physiotherapy,per treatment/procedure (estimated),1200,1000,1400,15,3,400,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Plastic Surgery,per treatment/procedure (estimated),28500,21400,35600,25,30,950,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Radiology,per treatment/procedure (estimated),5600,4800,6400,15,8,700,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Rheumatology,per treatment/procedure (estimated),6500,5500,7500,15,10,650,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Urology,per treatment/procedure (estimated),20000,15000,25000,25,25,800,Hospital-specific public-fee calibration where available
+H011,"Apollo Hospitals, Tondiarpet",Vascular Surgery,per treatment/procedure (estimated),31500,23600,39400,25,35,900,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,Allergy and Immunology,per treatment/procedure (estimated),3600,3100,4100,15,8,450,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,Anaesthesiology,per treatment/procedure (estimated),4400,3700,5100,15,8,550,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,Cardiology,per treatment/procedure (estimated),10800,9200,12400,15,18,600,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,Dentistry,per treatment/procedure (estimated),2400,2000,2800,15,6,400,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,Dermatology,per treatment/procedure (estimated),3500,3000,4000,15,7,500,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,Endocrinology,per treatment/procedure (estimated),4200,3600,4800,15,7,600,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,ENT,per treatment/procedure (estimated),4000,3400,4600,15,8,500,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,Gastroenterology,per treatment/procedure (estimated),12000,9000,15000,25,20,600,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,General Medicine,per treatment/procedure (estimated),1800,1500,2100,15,4,450,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,General Surgery,per treatment/procedure (estimated),5400,4600,6200,15,12,450,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,Haematology,per treatment/procedure (estimated),6800,5800,7800,15,15,450,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,Nephrology,per treatment/procedure (estimated),10800,8100,13500,25,18,600,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,Neurology,per treatment/procedure (estimated),9000,7600,10400,15,15,600,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,Obstetrics and Gynaecology,per treatment/procedure (estimated),11200,8400,14000,25,25,450,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,Ophthalmology,per treatment/procedure (estimated),6000,5100,6900,15,12,500,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,Orthopaedics,per treatment/procedure (estimated),13800,10400,17200,25,25,550,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,Paediatric Surgery,per treatment/procedure (estimated),27000,20200,33800,25,45,600,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,Paediatrics,per treatment/procedure (estimated),2200,1900,2500,15,5,450,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,Physiotherapy,per treatment/procedure (estimated),900,800,1000,15,3,300,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,Plastic Surgery,per treatment/procedure (estimated),19500,14600,24400,25,30,650,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,Psychiatry,per treatment/procedure (estimated),3000,2600,3400,15,6,500,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,Pulmonology,per treatment/procedure (estimated),6800,5800,7800,15,15,450,Hospital-specific public-fee calibration where available
+H012,CSI Kalyani Hospital,Urology,per treatment/procedure (estimated),15000,11200,18800,25,25,600,Hospital-specific public-fee calibration where available
+H013,Chennai Meenakshi Multispeciality Hospital,Cardiology,per treatment/procedure (estimated),15300,13000,17600,15,18,850,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,Cosmetic Surgery,per treatment/procedure (estimated),29800,22400,37200,25,35,850,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,Dentistry,per treatment/procedure (estimated),3300,2800,3800,15,6,550,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,Dermatology,per treatment/procedure (estimated),4900,4200,5600,15,7,700,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,Diabetology,per treatment/procedure (estimated),3500,3000,4000,15,5,700,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,Endocrinology,per treatment/procedure (estimated),5600,4800,6400,15,7,800,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,ENT,per treatment/procedure (estimated),5600,4800,6400,15,8,700,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,Gastroenterology,per treatment/procedure (estimated),17000,12800,21200,25,20,850,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,General Medicine,per treatment/procedure (estimated),2600,2200,3000,15,4,650,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,General Surgery,per treatment/procedure (estimated),7800,6600,9000,15,12,650,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,Nephrology,per treatment/procedure (estimated),15300,11500,19100,25,18,850,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,Neurosurgery,per treatment/procedure (estimated),75000,56200,93800,25,75,1000,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,Neurology,per treatment/procedure (estimated),12800,10900,14700,15,15,850,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,Ophthalmology,per treatment/procedure (estimated),8400,7100,9700,15,12,700,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,Orthopaedics,per treatment/procedure (estimated),18800,14100,23500,25,25,750,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,Paediatrics,per treatment/procedure (estimated),3200,2700,3700,15,5,650,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,Physiotherapy,per treatment/procedure (estimated),1200,1000,1400,15,3,400,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,Psychiatry,per treatment/procedure (estimated),4200,3600,4800,15,6,700,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,Radiology,per treatment/procedure (estimated),5600,4800,6400,15,8,700,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,Rheumatology,per treatment/procedure (estimated),6500,5500,7500,15,10,650,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,Surgical Oncology,per treatment/procedure (estimated),60000,45000,75000,25,60,1000,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,Urology,per treatment/procedure (estimated),20000,15000,25000,25,25,800,Hospital-type estimate
+H013,Chennai Meenakshi Multispeciality Hospital,Vascular Surgery,per treatment/procedure (estimated),31500,23600,39400,25,35,900,Hospital-type estimate
+H014,"Aditya Hospital, Kilpauk",Anaesthesiology,per treatment/procedure (estimated),6000,5100,6900,15,8,750,Hospital-specific public-fee calibration where available
+H014,"Aditya Hospital, Kilpauk",Cardiology,per treatment/procedure (estimated),15300,13000,17600,15,18,850,Hospital-specific public-fee calibration where available
+H014,"Aditya Hospital, Kilpauk",Dentistry,per treatment/procedure (estimated),3300,2800,3800,15,6,550,Hospital-specific public-fee calibration where available
+H014,"Aditya Hospital, Kilpauk",Dermatology,per treatment/procedure (estimated),4900,4200,5600,15,7,700,Hospital-specific public-fee calibration where available
+H014,"Aditya Hospital, Kilpauk",Endocrinology,per treatment/procedure (estimated),5600,4800,6400,15,7,800,Hospital-specific public-fee calibration where available
+H014,"Aditya Hospital, Kilpauk",ENT,per treatment/procedure (estimated),5600,4800,6400,15,8,700,Hospital-specific public-fee calibration where available
+H014,"Aditya Hospital, Kilpauk",Gastroenterology,per treatment/procedure (estimated),17000,12800,21200,25,20,850,Hospital-specific public-fee calibration where available
+H014,"Aditya Hospital, Kilpauk",Obstetrics and Gynaecology,per treatment/procedure (estimated),16200,12200,20200,25,25,650,Hospital-specific public-fee calibration where available
+H014,"Aditya Hospital, Kilpauk",Nephrology,per treatment/procedure (estimated),15300,11500,19100,25,18,850,Hospital-specific public-fee calibration where available
+H014,"Aditya Hospital, Kilpauk",Neurology,per treatment/procedure (estimated),12800,10900,14700,15,15,850,Hospital-specific public-fee calibration where available
+H014,"Aditya Hospital, Kilpauk",Oncology,per treatment/procedure (estimated),22800,17100,28500,25,35,650,Hospital-specific public-fee calibration where available
+H014,"Aditya Hospital, Kilpauk",Ophthalmology,per treatment/procedure (estimated),8400,7100,9700,15,12,700,Hospital-specific public-fee calibration where available
+H014,"Aditya Hospital, Kilpauk",Orthopaedics,per treatment/procedure (estimated),18800,14100,23500,25,25,750,Hospital-specific public-fee calibration where available
+H014,"Aditya Hospital, Kilpauk",Pulmonology,per treatment/procedure (estimated),9800,8300,11300,15,15,650,Hospital-specific public-fee calibration where available
+H014,"Aditya Hospital, Kilpauk",Urology,per treatment/procedure (estimated),20000,15000,25000,25,25,800,Hospital-specific public-fee calibration where available
+H015,Parvathy Hospital,Cardiology,per treatment/procedure (estimated),12600,10700,14500,15,18,700,Hospital-specific public-fee calibration where available
+H015,Parvathy Hospital,Cardiothoracic Surgery,per treatment/procedure (estimated),58500,43900,73100,25,65,900,Hospital-specific public-fee calibration where available
+H015,Parvathy Hospital,Gastroenterology,per treatment/procedure (estimated),14000,10500,17500,25,20,700,Hospital-specific public-fee calibration where available
+H015,Parvathy Hospital,General Medicine,per treatment/procedure (estimated),2200,1900,2500,15,4,550,Hospital-specific public-fee calibration where available
+H015,Parvathy Hospital,Nephrology,per treatment/procedure (estimated),12600,9400,15800,25,18,700,Hospital-specific public-fee calibration where available
+H015,Parvathy Hospital,Neurosurgery,per treatment/procedure (estimated),63800,47800,79800,25,75,850,Hospital-specific public-fee calibration where available
+H015,Parvathy Hospital,Neurology,per treatment/procedure (estimated),10500,8900,12100,15,15,700,Hospital-specific public-fee calibration where available
+H015,Parvathy Hospital,Orthopaedics,per treatment/procedure (estimated),16200,12200,20200,25,25,650,Hospital-specific public-fee calibration where available
+H015,Parvathy Hospital,Plastic Surgery,per treatment/procedure (estimated),24000,18000,30000,25,30,800,Hospital-specific public-fee calibration where available
+H015,Parvathy Hospital,Rheumatology,per treatment/procedure (estimated),5500,4700,6300,15,10,550,Hospital-specific public-fee calibration where available
+H015,Parvathy Hospital,Vascular Surgery,per treatment/procedure (estimated),26200,19600,32800,25,35,750,Hospital-specific public-fee calibration where available
+H016,A.N.N.Hospital,Obstetrics and Gynaecology,per treatment/procedure (estimated),10000,7500,12500,25,25,400,Hospital-specific public-fee calibration where available
+H016,A.N.N.Hospital,Urology,per treatment/procedure (estimated),12500,9400,15600,25,25,500,Hospital-specific public-fee calibration where available
+H016,A.N.N.Hospital,Oncology,per treatment/procedure (estimated),14000,10500,17500,25,35,400,Hospital-specific public-fee calibration where available
+H016,A.N.N.Hospital,Reproductive Medicine,per treatment/procedure (estimated),12000,9000,15000,25,30,400,Hospital-specific public-fee calibration where available
+H016,A.N.N.Hospital,Diabetology,per treatment/procedure (estimated),2200,1900,2500,15,5,450,Hospital-specific public-fee calibration where available
+H016,A.N.N.Hospital,Nephrology,per treatment/procedure (estimated),9900,7400,12400,25,18,550,Hospital-specific public-fee calibration where available
+H016,A.N.N.Hospital,Psychiatry,per treatment/procedure (estimated),2700,2300,3100,15,6,450,Hospital-specific public-fee calibration where available
+H016,A.N.N.Hospital,Plastic Surgery,per treatment/procedure (estimated),18000,13500,22500,25,30,600,Hospital-specific public-fee calibration where available
+H016,A.N.N.Hospital,Paediatric Surgery,per treatment/procedure (estimated),24800,18600,31000,25,45,550,Hospital-specific public-fee calibration where available
+H016,A.N.N.Hospital,Neurology,per treatment/procedure (estimated),8200,7000,9400,15,15,550,Hospital-specific public-fee calibration where available
+H016,A.N.N.Hospital,Cardiology,per treatment/procedure (estimated),9900,8400,11400,15,18,550,Hospital-specific public-fee calibration where available
+H016,A.N.N.Hospital,Cardiothoracic Surgery,per treatment/procedure (estimated),45500,34100,56900,25,65,700,Hospital-specific public-fee calibration where available
+H018,Amrit Hospital,Ophthalmology,per treatment/procedure (estimated),6000,5100,6900,15,12,500,Hospital-specific public-fee calibration where available
+H018,Amrit Hospital,Obstetrics and Gynaecology,per treatment/procedure (estimated),11200,8400,14000,25,25,450,Hospital-specific public-fee calibration where available
+H018,Amrit Hospital,Pulmonology,per treatment/procedure (estimated),6800,5800,7800,15,15,450,Hospital-specific public-fee calibration where available
+H018,Amrit Hospital,Dermatology,per treatment/procedure (estimated),3500,3000,4000,15,7,500,Hospital-specific public-fee calibration where available
+H018,Amrit Hospital,Diabetology,per treatment/procedure (estimated),2500,2100,2900,15,5,500,Hospital-specific public-fee calibration where available
+H018,Amrit Hospital,ENT,per treatment/procedure (estimated),4000,3400,4600,15,8,500,Hospital-specific public-fee calibration where available
+H018,Amrit Hospital,Geriatrics,per treatment/procedure (estimated),2200,1900,2500,15,5,450,Hospital-specific public-fee calibration where available
+H018,Amrit Hospital,General Surgery,per treatment/procedure (estimated),5400,4600,6200,15,12,450,Hospital-specific public-fee calibration where available
+H018,Amrit Hospital,Orthopaedics,per treatment/procedure (estimated),13800,10400,17200,25,25,550,Hospital-specific public-fee calibration where available
+H018,Amrit Hospital,Physiotherapy,per treatment/procedure (estimated),900,800,1000,15,3,300,Hospital-specific public-fee calibration where available
+H018,Amrit Hospital,Urology,per treatment/procedure (estimated),15000,11200,18800,25,25,600,Hospital-specific public-fee calibration where available
+H019,Aashiana Hospital,Psychiatry,per treatment/procedure (estimated),3000,2600,3400,15,6,500,Hospital-specific public-fee calibration where available
+H019,Aashiana Hospital,Psychology,per treatment/procedure (estimated),1600,1400,1800,15,4,400,Hospital-specific public-fee calibration where available
+H021,Billroth Health Centre,Oncology,per treatment/procedure (estimated),15800,11800,19800,25,35,450,Hospital-specific public-fee calibration where available
+H021,Billroth Health Centre,Nuclear Medicine,per treatment/procedure (estimated),13800,10400,17200,25,25,550,Hospital-specific public-fee calibration where available
+H021,Billroth Health Centre,Cardiology,per treatment/procedure (estimated),10800,9200,12400,15,18,600,Hospital-specific public-fee calibration where available
+H021,Billroth Health Centre,Cardiothoracic Surgery,per treatment/procedure (estimated),48800,36600,61000,25,65,750,Hospital-specific public-fee calibration where available
+H021,Billroth Health Centre,Pulmonology,per treatment/procedure (estimated),6800,5800,7800,15,15,450,Hospital-specific public-fee calibration where available
+H021,Billroth Health Centre,General Medicine,per treatment/procedure (estimated),1800,1500,2100,15,4,450,Hospital-specific public-fee calibration where available
+H021,Billroth Health Centre,Orthopaedics,per treatment/procedure (estimated),13800,10400,17200,25,25,550,Hospital-specific public-fee calibration where available
+H021,Billroth Health Centre,Gastroenterology,per treatment/procedure (estimated),12000,9000,15000,25,20,600,Hospital-specific public-fee calibration where available
+H021,Billroth Health Centre,Obstetrics and Gynaecology,per treatment/procedure (estimated),11200,8400,14000,25,25,450,Hospital-specific public-fee calibration where available
+H021,Billroth Health Centre,ENT,per treatment/procedure (estimated),4000,3400,4600,15,8,500,Hospital-specific public-fee calibration where available
+H021,Billroth Health Centre,Urology,per treatment/procedure (estimated),15000,11200,18800,25,25,600,Hospital-specific public-fee calibration where available
+H021,Billroth Health Centre,Neurology,per treatment/procedure (estimated),9000,7600,10400,15,15,600,Hospital-specific public-fee calibration where available
+H021,Billroth Health Centre,Diabetology,per treatment/procedure (estimated),2500,2100,2900,15,5,500,Hospital-specific public-fee calibration where available
+H021,Billroth Health Centre,Plastic Surgery,per treatment/procedure (estimated),19500,14600,24400,25,30,650,Hospital-specific public-fee calibration where available
+H021,Billroth Health Centre,Paediatric Surgery,per treatment/procedure (estimated),27000,20200,33800,25,45,600,Hospital-specific public-fee calibration where available
+H021,Billroth Health Centre,Radiology,per treatment/procedure (estimated),4000,3400,4600,15,8,500,Hospital-specific public-fee calibration where available
+H021,Billroth Health Centre,Dentistry,per treatment/procedure (estimated),2400,2000,2800,15,6,400,Hospital-specific public-fee calibration where available
+H022,B.M.Hospital,Obstetrics and Gynaecology,per treatment/procedure (estimated),10000,7500,12500,25,25,400,Hospital-specific public-fee calibration where available
+H022,B.M.Hospital,Reproductive Medicine,per treatment/procedure (estimated),12000,9000,15000,25,30,400,Hospital-specific public-fee calibration where available
+H022,B.M.Hospital,General Surgery,per treatment/procedure (estimated),4800,4100,5500,15,12,400,Hospital-specific public-fee calibration where available
+H022,B.M.Hospital,General Medicine,per treatment/procedure (estimated),1600,1400,1800,15,4,400,Hospital-specific public-fee calibration where available
+H022,B.M.Hospital,Urology,per treatment/procedure (estimated),12500,9400,15600,25,25,500,Hospital-specific public-fee calibration where available
+H022,B.M.Hospital,Nephrology,per treatment/procedure (estimated),9900,7400,12400,25,18,550,Hospital-specific public-fee calibration where available
+H022,B.M.Hospital,ENT,per treatment/procedure (estimated),3600,3100,4100,15,8,450,Hospital-specific public-fee calibration where available
+H022,B.M.Hospital,Ophthalmology,per treatment/procedure (estimated),5400,4600,6200,15,12,450,Hospital-specific public-fee calibration where available
+H022,B.M.Hospital,Orthopaedics,per treatment/procedure (estimated),12500,9400,15600,25,25,500,Hospital-specific public-fee calibration where available
+H022,B.M.Hospital,Paediatrics,per treatment/procedure (estimated),2000,1700,2300,15,5,400,Hospital-specific public-fee calibration where available
+H022,B.M.Hospital,Neurology,per treatment/procedure (estimated),8200,7000,9400,15,15,550,Hospital-specific public-fee calibration where available
+H022,B.M.Hospital,Neurosurgery,per treatment/procedure (estimated),48800,36600,61000,25,75,650,Hospital-specific public-fee calibration where available
+H022,B.M.Hospital,Plastic Surgery,per treatment/procedure (estimated),18000,13500,22500,25,30,600,Hospital-specific public-fee calibration where available
+H022,B.M.Hospital,Dermatology,per treatment/procedure (estimated),3200,2700,3700,15,7,450,Hospital-specific public-fee calibration where available
+H022,B.M.Hospital,Psychiatry,per treatment/procedure (estimated),2700,2300,3100,15,6,450,Hospital-specific public-fee calibration where available
+H022,B.M.Hospital,Pulmonology,per treatment/procedure (estimated),6000,5100,6900,15,15,400,Hospital-specific public-fee calibration where available
+H022,B.M.Hospital,Oncology,per treatment/procedure (estimated),14000,10500,17500,25,35,400,Hospital-specific public-fee calibration where available
+H022,B.M.Hospital,Dentistry,per treatment/procedure (estimated),2100,1800,2400,15,6,350,Hospital-specific public-fee calibration where available
+H022,B.M.Hospital,Pathology,per treatment/procedure (estimated),2000,1700,2300,15,5,400,Hospital-specific public-fee calibration where available
+H023,SRI Balaji Hospital,Cardiology,per treatment/procedure (estimated),15300,13000,17600,15,18,850,Hospital-specific public-fee calibration where available
+H023,SRI Balaji Hospital,Dermatology,per treatment/procedure (estimated),4900,4200,5600,15,7,700,Hospital-specific public-fee calibration where available
+H023,SRI Balaji Hospital,Diabetology,per treatment/procedure (estimated),3500,3000,4000,15,5,700,Hospital-specific public-fee calibration where available
+H023,SRI Balaji Hospital,Endocrinology,per treatment/procedure (estimated),5600,4800,6400,15,7,800,Hospital-specific public-fee calibration where available
+H023,SRI Balaji Hospital,Gastroenterology,per treatment/procedure (estimated),17000,12800,21200,25,20,850,Hospital-specific public-fee calibration where available
+H023,SRI Balaji Hospital,Critical Care,per treatment/procedure (estimated),28500,21400,35600,25,30,950,Hospital-specific public-fee calibration where available
+H023,SRI Balaji Hospital,Neurology,per treatment/procedure (estimated),12800,10900,14700,15,15,850,Hospital-specific public-fee calibration where available
+H023,SRI Balaji Hospital,Paediatrics,per treatment/procedure (estimated),3200,2700,3700,15,5,650,Hospital-specific public-fee calibration where available
+H023,SRI Balaji Hospital,Psychiatry,per treatment/procedure (estimated),4200,3600,4800,15,6,700,Hospital-specific public-fee calibration where available
+H023,SRI Balaji Hospital,Pulmonology,per treatment/procedure (estimated),9800,8300,11300,15,15,650,Hospital-specific public-fee calibration where available
+H023,SRI Balaji Hospital,Radiology,per treatment/procedure (estimated),5600,4800,6400,15,8,700,Hospital-specific public-fee calibration where available
+H023,SRI Balaji Hospital,Orthopaedics,per treatment/procedure (estimated),18800,14100,23500,25,25,750,Hospital-specific public-fee calibration where available
+H023,SRI Balaji Hospital,ENT,per treatment/procedure (estimated),5600,4800,6400,15,8,700,Hospital-specific public-fee calibration where available
+H023,SRI Balaji Hospital,General Surgery,per treatment/procedure (estimated),7800,6600,9000,15,12,650,Hospital-specific public-fee calibration where available
+H023,SRI Balaji Hospital,Neurosurgery,per treatment/procedure (estimated),75000,56200,93800,25,75,1000,Hospital-specific public-fee calibration where available
+H023,SRI Balaji Hospital,Obstetrics and Gynaecology,per treatment/procedure (estimated),16200,12200,20200,25,25,650,Hospital-specific public-fee calibration where available
+H023,SRI Balaji Hospital,Ophthalmology,per treatment/procedure (estimated),8400,7100,9700,15,12,700,Hospital-specific public-fee calibration where available
+H023,SRI Balaji Hospital,Plastic Surgery,per treatment/procedure (estimated),28500,21400,35600,25,30,950,Hospital-specific public-fee calibration where available
+H023,SRI Balaji Hospital,Urology,per treatment/procedure (estimated),20000,15000,25000,25,25,800,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,Biochemistry,per treatment/procedure (estimated),3000,2600,3400,15,4,750,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,Pathology,per treatment/procedure (estimated),3800,3200,4400,15,5,750,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,Microbiology,per treatment/procedure (estimated),3000,2600,3400,15,4,750,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,Forensic Medicine and Toxicology,per treatment/procedure (estimated),3000,2600,3400,15,4,750,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,Paediatrics,per treatment/procedure (estimated),3800,3200,4400,15,5,750,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,Community Medicine,per treatment/procedure (estimated),3000,2600,3400,15,4,750,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,Anaesthesiology,per treatment/procedure (estimated),6800,5800,7800,15,8,850,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,ENT,per treatment/procedure (estimated),6000,5100,6900,15,8,750,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,Ophthalmology,per treatment/procedure (estimated),9600,8200,11000,15,12,800,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,General Medicine,per treatment/procedure (estimated),3000,2600,3400,15,4,750,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,General Surgery,per treatment/procedure (estimated),9000,7600,10400,15,12,750,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,Obstetrics and Gynaecology,per treatment/procedure (estimated),18800,14100,23500,25,25,750,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,Orthopaedics,per treatment/procedure (estimated),21200,15900,26500,25,25,850,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,Psychiatry,per treatment/procedure (estimated),4500,3800,5200,15,6,750,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,Pulmonology,per treatment/procedure (estimated),11200,9500,12900,15,15,750,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,Dermatology,per treatment/procedure (estimated),5600,4800,6400,15,7,800,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,Radiology,per treatment/procedure (estimated),6000,5100,6900,15,8,750,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,Urology,per treatment/procedure (estimated),22500,16900,28100,25,25,900,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,Neurosurgery,per treatment/procedure (estimated),86200,64600,107800,25,75,1150,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,Neurology,per treatment/procedure (estimated),14200,12100,16300,15,15,950,Hospital-specific public-fee calibration where available
+H024,Sree Balaji Medical College and Hospital,Gastroenterology,per treatment/procedure (estimated),19000,14200,23800,25,20,950,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,Cardiology,per treatment/procedure (estimated),21600,18400,24800,15,18,1200,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,Cardiothoracic Surgery,per treatment/procedure (estimated),97500,73100,121900,25,65,1500,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,Vascular Surgery,per treatment/procedure (estimated),45500,34100,56900,25,35,1300,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,Dermatology,per treatment/procedure (estimated),7000,6000,8000,15,7,1000,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,Endocrinology,per treatment/procedure (estimated),8000,6800,9200,15,7,1150,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,ENT,per treatment/procedure (estimated),7600,6500,8700,15,8,950,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,General Medicine,per treatment/procedure (estimated),3600,3100,4100,15,4,900,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,General Surgery,per treatment/procedure (estimated),10800,9200,12400,15,12,900,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,Geriatrics,per treatment/procedure (estimated),4500,3800,5200,15,5,900,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,Reproductive Medicine,per treatment/procedure (estimated),27000,20200,33800,25,30,900,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,Nephrology,per treatment/procedure (estimated),21600,16200,27000,25,18,1200,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,Neurosurgery,per treatment/procedure (estimated),108800,81600,136000,25,75,1450,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,Neurology,per treatment/procedure (estimated),18000,15300,20700,15,15,1200,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,Obstetrics and Gynaecology,per treatment/procedure (estimated),22500,16900,28100,25,25,900,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,Orthopaedics,per treatment/procedure (estimated),26200,19600,32800,25,25,1050,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,Paediatrics,per treatment/procedure (estimated),4500,3800,5200,15,5,900,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,Psychiatry,per treatment/procedure (estimated),5700,4800,6600,15,6,950,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,Urology,per treatment/procedure (estimated),28800,21600,36000,25,25,1150,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,Plastic Surgery,per treatment/procedure (estimated),40500,30400,50600,25,30,1350,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,Paediatric Surgery,per treatment/procedure (estimated),56200,42200,70200,25,45,1250,Hospital-specific public-fee calibration where available
+H025,Chettinad Super Speciality Hospital,Gastroenterology,per treatment/procedure (estimated),24000,18000,30000,25,20,1200,Hospital-specific public-fee calibration where available
+H026,Christudas Orthopaedic Speciality Hospital,Physiotherapy,per treatment/procedure (estimated),1000,800,1200,15,3,350,Hospital-specific public-fee calibration where available
+H026,Christudas Orthopaedic Speciality Hospital,General Medicine,per treatment/procedure (estimated),2200,1900,2500,15,4,550,Hospital-specific public-fee calibration where available
+H026,Christudas Orthopaedic Speciality Hospital,Rheumatology,per treatment/procedure (estimated),5500,4700,6300,15,10,550,Hospital-specific public-fee calibration where available
+H026,Christudas Orthopaedic Speciality Hospital,Dermatology,per treatment/procedure (estimated),4200,3600,4800,15,7,600,Hospital-specific public-fee calibration where available
+H026,Christudas Orthopaedic Speciality Hospital,Oncology,per treatment/procedure (estimated),19200,14400,24000,25,35,550,Hospital-specific public-fee calibration where available
+H026,Christudas Orthopaedic Speciality Hospital,Urology,per treatment/procedure (estimated),17500,13100,21900,25,25,700,Hospital-specific public-fee calibration where available
+H026,Christudas Orthopaedic Speciality Hospital,Paediatrics,per treatment/procedure (estimated),2800,2400,3200,15,5,550,Hospital-specific public-fee calibration where available
+H026,Christudas Orthopaedic Speciality Hospital,Plastic Surgery,per treatment/procedure (estimated),24000,18000,30000,25,30,800,Hospital-specific public-fee calibration where available
+H026,Christudas Orthopaedic Speciality Hospital,Neurology,per treatment/procedure (estimated),10500,8900,12100,15,15,700,Hospital-specific public-fee calibration where available
+H026,Christudas Orthopaedic Speciality Hospital,Gastroenterology,per treatment/procedure (estimated),14000,10500,17500,25,20,700,Hospital-specific public-fee calibration where available
+H026,Christudas Orthopaedic Speciality Hospital,Nephrology,per treatment/procedure (estimated),12600,9400,15800,25,18,700,Hospital-specific public-fee calibration where available
+H026,Christudas Orthopaedic Speciality Hospital,Cardiology,per treatment/procedure (estimated),12600,10700,14500,15,18,700,Hospital-specific public-fee calibration where available
+H026,Christudas Orthopaedic Speciality Hospital,Diabetology,per treatment/procedure (estimated),3000,2600,3400,15,5,600,Hospital-specific public-fee calibration where available
+H026,Christudas Orthopaedic Speciality Hospital,Vascular Surgery,per treatment/procedure (estimated),26200,19600,32800,25,35,750,Hospital-specific public-fee calibration where available
+H026,Christudas Orthopaedic Speciality Hospital,ENT,per treatment/procedure (estimated),4800,4100,5500,15,8,600,Hospital-specific public-fee calibration where available
+H026,Christudas Orthopaedic Speciality Hospital,Ophthalmology,per treatment/procedure (estimated),7200,6100,8300,15,12,600,Hospital-specific public-fee calibration where available
+H026,Christudas Orthopaedic Speciality Hospital,Endocrinology,per treatment/procedure (estimated),4900,4200,5600,15,7,700,Hospital-specific public-fee calibration where available
+H026,Christudas Orthopaedic Speciality Hospital,Obstetrics and Gynaecology,per treatment/procedure (estimated),13800,10400,17200,25,25,550,Hospital-specific public-fee calibration where available
+H026,Christudas Orthopaedic Speciality Hospital,Pulmonology,per treatment/procedure (estimated),8200,7000,9400,15,15,550,Hospital-specific public-fee calibration where available
+H027,C.M.Hospital,Orthopaedics,per treatment/procedure (estimated),13800,10400,17200,25,25,550,Hospital-specific public-fee calibration where available
+H028,C.S.I.Rainy Multi Speciality Hospital,Obstetrics and Gynaecology,per treatment/procedure (estimated),13800,10400,17200,25,25,550,Hospital-specific public-fee calibration where available
+H028,C.S.I.Rainy Multi Speciality Hospital,General Medicine,per treatment/procedure (estimated),2200,1900,2500,15,4,550,Hospital-specific public-fee calibration where available
+H028,C.S.I.Rainy Multi Speciality Hospital,Paediatrics,per treatment/procedure (estimated),2800,2400,3200,15,5,550,Hospital-specific public-fee calibration where available
+H028,C.S.I.Rainy Multi Speciality Hospital,Dentistry,per treatment/procedure (estimated),2700,2300,3100,15,6,450,Hospital-specific public-fee calibration where available
+H028,C.S.I.Rainy Multi Speciality Hospital,Ophthalmology,per treatment/procedure (estimated),7200,6100,8300,15,12,600,Hospital-specific public-fee calibration where available
+H028,C.S.I.Rainy Multi Speciality Hospital,ENT,per treatment/procedure (estimated),4800,4100,5500,15,8,600,Hospital-specific public-fee calibration where available
+H028,C.S.I.Rainy Multi Speciality Hospital,Anaesthesiology,per treatment/procedure (estimated),5200,4400,6000,15,8,650,Hospital-specific public-fee calibration where available
+H029,"Dr.Agarwal's Eye Hospital Ltd., Anna Nagar",Cornea and Refractive Surgery,per treatment/procedure (estimated),18800,16000,21600,15,25,750,Hospital-specific public-fee calibration where available
+H029,"Dr.Agarwal's Eye Hospital Ltd., Anna Nagar",Cornea and External Eye Disease,per treatment/procedure (estimated),9800,8300,11300,15,15,650,Hospital-specific public-fee calibration where available
+H029,"Dr.Agarwal's Eye Hospital Ltd., Anna Nagar",Glaucoma,per treatment/procedure (estimated),11700,9900,13500,15,18,650,Hospital-specific public-fee calibration where available
+H029,"Dr.Agarwal's Eye Hospital Ltd., Anna Nagar",Ophthalmology,per treatment/procedure (estimated),8400,7100,9700,15,12,700,Hospital-specific public-fee calibration where available
+H030,Diabetes Research Centre and M.V.Hospital For Diabetes,Diabetology,per treatment/procedure (estimated),3500,3000,4000,15,5,700,Hospital-specific public-fee calibration where available
+H030,Diabetes Research Centre and M.V.Hospital For Diabetes,Pathology,per treatment/procedure (estimated),3200,2700,3700,15,5,650,Hospital-specific public-fee calibration where available
+H030,Diabetes Research Centre and M.V.Hospital For Diabetes,Dietetics,per treatment/procedure (estimated),1400,1200,1600,15,3,450,Hospital-specific public-fee calibration where available
+H031,Fortis Malar Hospital,Orthopaedics,per treatment/procedure (estimated),16200,12200,20200,25,25,650,Hospital-specific public-fee calibration where available
+H031,Fortis Malar Hospital,Urology,per treatment/procedure (estimated),17500,13100,21900,25,25,700,Hospital-specific public-fee calibration where available
+H031,Fortis Malar Hospital,Digestive Medicine,per treatment/procedure (estimated),11000,9400,12600,15,20,550,Hospital-specific public-fee calibration where available
+H031,Fortis Malar Hospital,Obstetrics and Gynaecology,per treatment/procedure (estimated),13800,10400,17200,25,25,550,Hospital-specific public-fee calibration where available
+H031,Fortis Malar Hospital,Paediatrics,per treatment/procedure (estimated),2800,2400,3200,15,5,550,Hospital-specific public-fee calibration where available
+H031,Fortis Malar Hospital,Preventive Medicine,per treatment/procedure (estimated),2800,2400,3200,15,5,550,Hospital-specific public-fee calibration where available
+H032,Frontier Lifeline Hospital,Cardiology,per treatment/procedure (estimated),16200,13800,18600,15,18,900,Hospital-specific public-fee calibration where available
+H032,Frontier Lifeline Hospital,Cardiothoracic Surgery,per treatment/procedure (estimated),74800,56100,93500,25,65,1150,Hospital-specific public-fee calibration where available
+H032,Frontier Lifeline Hospital,Paediatric Cardiology,per treatment/procedure (estimated),28500,21400,35600,25,30,950,Hospital-specific public-fee calibration where available
+H032,Frontier Lifeline Hospital,Vascular Surgery,per treatment/procedure (estimated),33200,24900,41500,25,35,950,Hospital-specific public-fee calibration where available
+H032,Frontier Lifeline Hospital,Gastroenterology,per treatment/procedure (estimated),18000,13500,22500,25,20,900,Hospital-specific public-fee calibration where available
+H033,Girishwari Hospital Pvt Ltd,Emergency Medicine,per treatment/procedure (estimated),4800,4100,5500,15,8,600,Hospital-specific public-fee calibration where available
+H033,Girishwari Hospital Pvt Ltd,Obstetrics and Gynaecology,per treatment/procedure (estimated),13800,10400,17200,25,25,550,Hospital-specific public-fee calibration where available
+H033,Girishwari Hospital Pvt Ltd,Orthopaedics,per treatment/procedure (estimated),16200,12200,20200,25,25,650,Hospital-specific public-fee calibration where available
+H033,Girishwari Hospital Pvt Ltd,Oncology,per treatment/procedure (estimated),19200,14400,24000,25,35,550,Hospital-specific public-fee calibration where available
+H033,Girishwari Hospital Pvt Ltd,Neurology,per treatment/procedure (estimated),10500,8900,12100,15,15,700,Hospital-specific public-fee calibration where available
+H033,Girishwari Hospital Pvt Ltd,Neurosurgery,per treatment/procedure (estimated),63800,47800,79800,25,75,850,Hospital-specific public-fee calibration where available
+H033,Girishwari Hospital Pvt Ltd,Nephrology,per treatment/procedure (estimated),12600,9400,15800,25,18,700,Hospital-specific public-fee calibration where available
+H033,Girishwari Hospital Pvt Ltd,Urology,per treatment/procedure (estimated),17500,13100,21900,25,25,700,Hospital-specific public-fee calibration where available
+H033,Girishwari Hospital Pvt Ltd,General Surgery,per treatment/procedure (estimated),6600,5600,7600,15,12,550,Hospital-specific public-fee calibration where available
+H033,Girishwari Hospital Pvt Ltd,Reproductive Medicine,per treatment/procedure (estimated),16500,12400,20600,25,30,550,Hospital-specific public-fee calibration where available
+H033,Girishwari Hospital Pvt Ltd,Paediatrics,per treatment/procedure (estimated),2800,2400,3200,15,5,550,Hospital-specific public-fee calibration where available
+H033,Girishwari Hospital Pvt Ltd,Cardiology,per treatment/procedure (estimated),12600,10700,14500,15,18,700,Hospital-specific public-fee calibration where available
+H033,Girishwari Hospital Pvt Ltd,Gastroenterology,per treatment/procedure (estimated),14000,10500,17500,25,20,700,Hospital-specific public-fee calibration where available
+H033,Girishwari Hospital Pvt Ltd,Psychiatry,per treatment/procedure (estimated),3600,3100,4100,15,6,600,Hospital-specific public-fee calibration where available
+H033,Girishwari Hospital Pvt Ltd,ENT,per treatment/procedure (estimated),4800,4100,5500,15,8,600,Hospital-specific public-fee calibration where available
+H034,Guest Hospital,Urology,per treatment/procedure (estimated),17500,13100,21900,25,25,700,Hospital-specific public-fee calibration where available
+H034,Guest Hospital,Diabetology,per treatment/procedure (estimated),3000,2600,3400,15,5,600,Hospital-specific public-fee calibration where available
+H034,Guest Hospital,Obstetrics and Gynaecology,per treatment/procedure (estimated),13800,10400,17200,25,25,550,Hospital-specific public-fee calibration where available
+H034,Guest Hospital,Orthopaedics,per treatment/procedure (estimated),16200,12200,20200,25,25,650,Hospital-specific public-fee calibration where available
+H034,Guest Hospital,Plastic Surgery,per treatment/procedure (estimated),24000,18000,30000,25,30,800,Hospital-specific public-fee calibration where available
+H034,Guest Hospital,Neurology,per treatment/procedure (estimated),10500,8900,12100,15,15,700,Hospital-specific public-fee calibration where available
+H034,Guest Hospital,Nephrology,per treatment/procedure (estimated),12600,9400,15800,25,18,700,Hospital-specific public-fee calibration where available
+H034,Guest Hospital,Neurosurgery,per treatment/procedure (estimated),63800,47800,79800,25,75,850,Hospital-specific public-fee calibration where available
+H034,Guest Hospital,Medical Oncology,per treatment/procedure (estimated),30000,22500,37500,25,40,750,Hospital-specific public-fee calibration where available
+H034,Guest Hospital,Surgical Oncology,per treatment/procedure (estimated),51000,38200,63800,25,60,850,Hospital-specific public-fee calibration where available
+H034,Guest Hospital,ENT,per treatment/procedure (estimated),4800,4100,5500,15,8,600,Hospital-specific public-fee calibration where available
+H034,Guest Hospital,Gastroenterology,per treatment/procedure (estimated),14000,10500,17500,25,20,700,Hospital-specific public-fee calibration where available
+H034,Guest Hospital,Cardiology,per treatment/procedure (estimated),12600,10700,14500,15,18,700,Hospital-specific public-fee calibration where available
+H034,Guest Hospital,Critical Care,per treatment/procedure (estimated),24000,18000,30000,25,30,800,Hospital-specific public-fee calibration where available
+H034,Guest Hospital,Anaesthesiology,per treatment/procedure (estimated),5200,4400,6000,15,8,650,Hospital-specific public-fee calibration where available
+H034,Guest Hospital,Paediatrics,per treatment/procedure (estimated),2800,2400,3200,15,5,550,Hospital-specific public-fee calibration where available
+H034,Guest Hospital,General Surgery,per treatment/procedure (estimated),6600,5600,7600,15,12,550,Hospital-specific public-fee calibration where available
+H034,Guest Hospital,Vascular Surgery,per treatment/procedure (estimated),26200,19600,32800,25,35,750,Hospital-specific public-fee calibration where available
+H034,Guest Hospital,Ophthalmology,per treatment/procedure (estimated),7200,6100,8300,15,12,600,Hospital-specific public-fee calibration where available
+H035,Huma Specialists Hospital and Research Centre Pvt Ltd,General Medicine,per treatment/procedure (estimated),2600,2200,3000,15,4,650,Hospital-specific public-fee calibration where available
+H035,Huma Specialists Hospital and Research Centre Pvt Ltd,Endocrinology,per treatment/procedure (estimated),5600,4800,6400,15,7,800,Hospital-specific public-fee calibration where available
+H035,Huma Specialists Hospital and Research Centre Pvt Ltd,Urology,per treatment/procedure (estimated),20000,15000,25000,25,25,800,Hospital-specific public-fee calibration where available
+H035,Huma Specialists Hospital and Research Centre Pvt Ltd,Ophthalmology,per treatment/procedure (estimated),8400,7100,9700,15,12,700,Hospital-specific public-fee calibration where available
+H035,Huma Specialists Hospital and Research Centre Pvt Ltd,Neurology,per treatment/procedure (estimated),12800,10900,14700,15,15,850,Hospital-specific public-fee calibration where available
+H035,Huma Specialists Hospital and Research Centre Pvt Ltd,General Surgery,per treatment/procedure (estimated),7800,6600,9000,15,12,650,Hospital-specific public-fee calibration where available
+H035,Huma Specialists Hospital and Research Centre Pvt Ltd,Radiology,per treatment/procedure (estimated),5600,4800,6400,15,8,700,Hospital-specific public-fee calibration where available
+H035,Huma Specialists Hospital and Research Centre Pvt Ltd,Cardiology,per treatment/procedure (estimated),15300,13000,17600,15,18,850,Hospital-specific public-fee calibration where available
+H035,Huma Specialists Hospital and Research Centre Pvt Ltd,Obstetrics and Gynaecology,per treatment/procedure (estimated),16200,12200,20200,25,25,650,Hospital-specific public-fee calibration where available
+H035,Huma Specialists Hospital and Research Centre Pvt Ltd,Dermatology,per treatment/procedure (estimated),4900,4200,5600,15,7,700,Hospital-specific public-fee calibration where available
+H035,Huma Specialists Hospital and Research Centre Pvt Ltd,Neonatology,per treatment/procedure (estimated),13000,11000,14900,15,20,650,Hospital-specific public-fee calibration where available
+H035,Huma Specialists Hospital and Research Centre Pvt Ltd,Rheumatology,per treatment/procedure (estimated),6500,5500,7500,15,10,650,Hospital-specific public-fee calibration where available
+H035,Huma Specialists Hospital and Research Centre Pvt Ltd,Orthopaedics,per treatment/procedure (estimated),18800,14100,23500,25,25,750,Hospital-specific public-fee calibration where available
+H038,Laksha Hospital,General Surgery,per treatment/procedure (estimated),5400,4600,6200,15,12,450,Hospital-specific public-fee calibration where available
+H038,Laksha Hospital,Orthopaedics,per treatment/procedure (estimated),13800,10400,17200,25,25,550,Hospital-specific public-fee calibration where available
+H038,Laksha Hospital,Emergency Medicine,per treatment/procedure (estimated),4000,3400,4600,15,8,500,Hospital-specific public-fee calibration where available
+H038,Laksha Hospital,Psychiatry,per treatment/procedure (estimated),3000,2600,3400,15,6,500,Hospital-specific public-fee calibration where available
+H038,Laksha Hospital,Paediatrics,per treatment/procedure (estimated),2200,1900,2500,15,5,450,Hospital-specific public-fee calibration where available
+H038,Laksha Hospital,General Medicine,per treatment/procedure (estimated),1800,1500,2100,15,4,450,Hospital-specific public-fee calibration where available
+H038,Laksha Hospital,Obstetrics and Gynaecology,per treatment/procedure (estimated),11200,8400,14000,25,25,450,Hospital-specific public-fee calibration where available
+H038,Laksha Hospital,Anaesthesiology,per treatment/procedure (estimated),4400,3700,5100,15,8,550,Hospital-specific public-fee calibration where available
+H038,Laksha Hospital,Nephrology,per treatment/procedure (estimated),10800,8100,13500,25,18,600,Hospital-specific public-fee calibration where available
+H038,Laksha Hospital,Urology,per treatment/procedure (estimated),15000,11200,18800,25,25,600,Hospital-specific public-fee calibration where available
+H038,Laksha Hospital,Neurosurgery,per treatment/procedure (estimated),52500,39400,65600,25,75,700,Hospital-specific public-fee calibration where available
+H038,Laksha Hospital,Cardiology,per treatment/procedure (estimated),10800,9200,12400,15,18,600,Hospital-specific public-fee calibration where available
+H038,Laksha Hospital,Pulmonology,per treatment/procedure (estimated),6800,5800,7800,15,15,450,Hospital-specific public-fee calibration where available
+H038,Laksha Hospital,Ophthalmology,per treatment/procedure (estimated),6000,5100,6900,15,12,500,Hospital-specific public-fee calibration where available
+H038,Laksha Hospital,Dietetics,per treatment/procedure (estimated),900,800,1000,15,3,300,Hospital-specific public-fee calibration where available
+H039,Laser and Laparascopic Hospital,Plastic Surgery,per treatment/procedure (estimated),28500,21400,35600,25,30,950,Hospital-specific public-fee calibration where available
+H039,Laser and Laparascopic Hospital,Dentistry,per treatment/procedure (estimated),3300,2800,3800,15,6,550,Hospital-specific public-fee calibration where available
+H040,"Apollo Hospitals, Greams Lane",Cardiothoracic Surgery,per treatment/procedure (estimated),149500,112100,186900,25,65,2300,Hospital-specific public-fee calibration where available
+H040,"Apollo Hospitals, Greams Lane",Cardiology,per treatment/procedure (estimated),32400,27500,37300,15,18,1800,Hospital-specific public-fee calibration where available
+H040,"Apollo Hospitals, Greams Lane",Critical Care,per treatment/procedure (estimated),60000,45000,75000,25,30,2000,Hospital-specific public-fee calibration where available
+H040,"Apollo Hospitals, Greams Lane",ENT,per treatment/procedure (estimated),11600,9900,13300,15,8,1450,Hospital-specific public-fee calibration where available
+H040,"Apollo Hospitals, Greams Lane",Gastroenterology,per treatment/procedure (estimated),36000,27000,45000,25,20,1800,Hospital-specific public-fee calibration where available
+H040,"Apollo Hospitals, Greams Lane",Medical Oncology,per treatment/procedure (estimated),78000,58500,97500,25,40,1950,Hospital-specific public-fee calibration where available
+H040,"Apollo Hospitals, Greams Lane",Nephrology,per treatment/procedure (estimated),32400,24300,40500,25,18,1800,Hospital-specific public-fee calibration where available
+H040,"Apollo Hospitals, Greams Lane",Neurology,per treatment/procedure (estimated),27000,23000,31000,15,15,1800,Hospital-specific public-fee calibration where available
+H040,"Apollo Hospitals, Greams Lane",Oncology,per treatment/procedure (estimated),49000,36800,61200,25,35,1400,Hospital-specific public-fee calibration where available
+H040,"Apollo Hospitals, Greams Lane",Ophthalmology,per treatment/procedure (estimated),18000,15300,20700,15,12,1500,Hospital-specific public-fee calibration where available
+H040,"Apollo Hospitals, Greams Lane",Orthopaedics,per treatment/procedure (estimated),40000,30000,50000,25,25,1600,Hospital-specific public-fee calibration where available
+H040,"Apollo Hospitals, Greams Lane",Surgical Oncology,per treatment/procedure (estimated),129000,96800,161200,25,60,2150,Hospital-specific public-fee calibration where available
+H040,"Apollo Hospitals, Greams Lane",Urology,per treatment/procedure (estimated),42500,31900,53100,25,25,1700,Hospital-specific public-fee calibration where available
+H041,Prashanth Fertility Research Centre,Andrology,per treatment/procedure (estimated),13500,11500,15500,15,15,900,Hospital-specific public-fee calibration where available
+H041,Prashanth Fertility Research Centre,Anaesthesiology,per treatment/procedure (estimated),8400,7100,9700,15,8,1050,Hospital-specific public-fee calibration where available
+H041,Prashanth Fertility Research Centre,Diabetology,per treatment/procedure (estimated),5000,4200,5800,15,5,1000,Hospital-specific public-fee calibration where available
+H041,Prashanth Fertility Research Centre,ENT,per treatment/procedure (estimated),7600,6500,8700,15,8,950,Hospital-specific public-fee calibration where available
+H041,Prashanth Fertility Research Centre,Obstetrics and Gynaecology,per treatment/procedure (estimated),22500,16900,28100,25,25,900,Hospital-specific public-fee calibration where available
+H041,Prashanth Fertility Research Centre,Reproductive Medicine,per treatment/procedure (estimated),27000,20200,33800,25,30,900,Hospital-specific public-fee calibration where available
+H041,Prashanth Fertility Research Centre,Nephrology,per treatment/procedure (estimated),21600,16200,27000,25,18,1200,Hospital-specific public-fee calibration where available
+H041,Prashanth Fertility Research Centre,Neurology,per treatment/procedure (estimated),18000,15300,20700,15,15,1200,Hospital-specific public-fee calibration where available
+H041,Prashanth Fertility Research Centre,Orthopaedics,per treatment/procedure (estimated),26200,19600,32800,25,25,1050,Hospital-specific public-fee calibration where available
+H041,Prashanth Fertility Research Centre,Pulmonology,per treatment/procedure (estimated),13500,11500,15500,15,15,900,Hospital-specific public-fee calibration where available
+H041,Prashanth Fertility Research Centre,Urology,per treatment/procedure (estimated),28800,21600,36000,25,25,1150,Hospital-specific public-fee calibration where available
+H042,Sri Ramachandra Medical Centre (SRMC),Emergency Medicine,per treatment/procedure (estimated),4400,3700,5100,15,8,550,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Anaesthesiology,per treatment/procedure (estimated),4800,4100,5500,15,8,600,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Biochemistry,per treatment/procedure (estimated),2000,1700,2300,15,4,500,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Cardiology,per treatment/procedure (estimated),11700,9900,13500,15,18,650,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Cardiothoracic Surgery,per treatment/procedure (estimated),55200,41400,69000,25,65,850,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Pulmonology,per treatment/procedure (estimated),7500,6400,8600,15,15,500,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Dentistry,per treatment/procedure (estimated),2700,2300,3100,15,6,450,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Dermatology,per treatment/procedure (estimated),3800,3200,4400,15,7,550,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Diabetology,per treatment/procedure (estimated),2800,2400,3200,15,5,550,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Endocrinology,per treatment/procedure (estimated),4600,3900,5300,15,7,650,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),ENT,per treatment/procedure (estimated),4400,3700,5100,15,8,550,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Family Medicine,per treatment/procedure (estimated),2000,1700,2300,15,4,500,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Gastroenterology,per treatment/procedure (estimated),13000,9800,16200,25,20,650,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),General Medicine,per treatment/procedure (estimated),2000,1700,2300,15,4,500,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),General Surgery,per treatment/procedure (estimated),6000,5100,6900,15,12,500,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Obstetrics and Gynaecology,per treatment/procedure (estimated),12500,9400,15600,25,25,500,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Microbiology,per treatment/procedure (estimated),2000,1700,2300,15,4,500,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Neonatology,per treatment/procedure (estimated),10000,8500,11500,15,20,500,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Nephrology,per treatment/procedure (estimated),11700,8800,14600,25,18,650,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Neurosurgery,per treatment/procedure (estimated),60000,45000,75000,25,75,800,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Neurology,per treatment/procedure (estimated),9800,8300,11300,15,15,650,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Oncology,per treatment/procedure (estimated),17500,13100,21900,25,35,500,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Ophthalmology,per treatment/procedure (estimated),6600,5600,7600,15,12,550,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Orthopaedics,per treatment/procedure (estimated),15000,11200,18800,25,25,600,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Pathology,per treatment/procedure (estimated),2500,2100,2900,15,5,500,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Paediatric Surgery,per treatment/procedure (estimated),31500,23600,39400,25,45,700,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Paediatrics,per treatment/procedure (estimated),2500,2100,2900,15,5,500,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Physiotherapy,per treatment/procedure (estimated),1000,800,1200,15,3,350,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Plastic Surgery,per treatment/procedure (estimated),22500,16900,28100,25,30,750,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Psychiatry,per treatment/procedure (estimated),3300,2800,3800,15,6,550,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Radiology,per treatment/procedure (estimated),4400,3700,5100,15,8,550,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Rheumatology,per treatment/procedure (estimated),5000,4200,5800,15,10,500,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Urology,per treatment/procedure (estimated),16200,12200,20200,25,25,650,Private-hospital prototype estimate
+H042,Sri Ramachandra Medical Centre (SRMC),Vascular Surgery,per treatment/procedure (estimated),24500,18400,30600,25,35,700,Private-hospital prototype estimate
+H043,Lifeline Multi Speciality Hospital,Dermatology,per treatment/procedure (estimated),5600,4800,6400,15,7,800,Hospital-specific public-fee calibration where available
+H043,Lifeline Multi Speciality Hospital,Diabetology,per treatment/procedure (estimated),4000,3400,4600,15,5,800,Hospital-specific public-fee calibration where available
+H043,Lifeline Multi Speciality Hospital,ENT,per treatment/procedure (estimated),6000,5100,6900,15,8,750,Hospital-specific public-fee calibration where available
+H043,Lifeline Multi Speciality Hospital,Gastroenterology,per treatment/procedure (estimated),19000,14200,23800,25,20,950,Hospital-specific public-fee calibration where available
+H043,Lifeline Multi Speciality Hospital,General Surgery,per treatment/procedure (estimated),9000,7600,10400,15,12,750,Hospital-specific public-fee calibration where available
+H043,Lifeline Multi Speciality Hospital,Geriatrics,per treatment/procedure (estimated),3800,3200,4400,15,5,750,Hospital-specific public-fee calibration where available
+H043,Lifeline Multi Speciality Hospital,General Medicine,per treatment/procedure (estimated),3000,2600,3400,15,4,750,Hospital-specific public-fee calibration where available
+H043,Lifeline Multi Speciality Hospital,Neurology,per treatment/procedure (estimated),14200,12100,16300,15,15,950,Hospital-specific public-fee calibration where available
+H043,Lifeline Multi Speciality Hospital,Obstetrics and Gynaecology,per treatment/procedure (estimated),18800,14100,23500,25,25,750,Hospital-specific public-fee calibration where available
+H043,Lifeline Multi Speciality Hospital,Ophthalmology,per treatment/procedure (estimated),9600,8200,11000,15,12,800,Hospital-specific public-fee calibration where available
+H043,Lifeline Multi Speciality Hospital,Orthopaedics,per treatment/procedure (estimated),21200,15900,26500,25,25,850,Hospital-specific public-fee calibration where available
+H043,Lifeline Multi Speciality Hospital,Paediatrics,per treatment/procedure (estimated),3800,3200,4400,15,5,750,Hospital-specific public-fee calibration where available
+H043,Lifeline Multi Speciality Hospital,Psychiatry,per treatment/procedure (estimated),4500,3800,5200,15,6,750,Hospital-specific public-fee calibration where available
+H043,Lifeline Multi Speciality Hospital,Urology,per treatment/procedure (estimated),22500,16900,28100,25,25,900,Hospital-specific public-fee calibration where available
+H044,KKR Ent Hospital and Research Institute (P) Ltd,ENT,per treatment/procedure (estimated),4800,4100,5500,15,8,600,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Emergency Medicine,per treatment/procedure (estimated),5600,4800,6400,15,8,700,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,General Surgery,per treatment/procedure (estimated),7800,6600,9000,15,12,650,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Geriatrics,per treatment/procedure (estimated),3200,2700,3700,15,5,650,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Allergy and Immunology,per treatment/procedure (estimated),5200,4400,6000,15,8,650,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Obstetrics and Gynaecology,per treatment/procedure (estimated),16200,12200,20200,25,25,650,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Addiction Medicine,per treatment/procedure (estimated),3900,3300,4500,15,6,650,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Haematology,per treatment/procedure (estimated),9800,8300,11300,15,15,650,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Cardiology,per treatment/procedure (estimated),15300,13000,17600,15,18,850,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Cardiothoracic Surgery,per treatment/procedure (estimated),68200,51200,85200,25,65,1050,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Neurology,per treatment/procedure (estimated),12800,10900,14700,15,15,850,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Nephrology,per treatment/procedure (estimated),15300,11500,19100,25,18,850,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Pulmonology,per treatment/procedure (estimated),9800,8300,11300,15,15,650,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Ophthalmology,per treatment/procedure (estimated),8400,7100,9700,15,12,700,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Orthopaedics,per treatment/procedure (estimated),18800,14100,23500,25,25,750,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Dentistry,per treatment/procedure (estimated),3300,2800,3800,15,6,550,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,ENT,per treatment/procedure (estimated),5600,4800,6400,15,8,700,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Paediatric Surgery,per treatment/procedure (estimated),38200,28600,47800,25,45,850,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Endocrinology,per treatment/procedure (estimated),5600,4800,6400,15,7,800,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Psychiatry,per treatment/procedure (estimated),4200,3600,4800,15,6,700,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Radiology,per treatment/procedure (estimated),5600,4800,6400,15,8,700,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Urology,per treatment/procedure (estimated),20000,15000,25000,25,25,800,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Vascular Surgery,per treatment/procedure (estimated),31500,23600,39400,25,35,900,Hospital-specific public-fee calibration where available
+H045,Bharathi Rajaa Hospitals (P) Ltd,Unani,per treatment/procedure (estimated),3200,2700,3700,15,5,650,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,Allergy and Immunology,per treatment/procedure (estimated),3600,3100,4100,15,8,450,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,Anaesthesiology,per treatment/procedure (estimated),4400,3700,5100,15,8,550,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,Oncology,per treatment/procedure (estimated),15800,11800,19800,25,35,450,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,Psychiatry,per treatment/procedure (estimated),3000,2600,3400,15,6,500,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,Cardiology,per treatment/procedure (estimated),10800,9200,12400,15,18,600,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,Pulmonology,per treatment/procedure (estimated),6800,5800,7800,15,15,450,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,Urology,per treatment/procedure (estimated),15000,11200,18800,25,25,600,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,Endocrinology,per treatment/procedure (estimated),4200,3600,4800,15,7,600,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,ENT,per treatment/procedure (estimated),4000,3400,4600,15,8,500,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,Gastroenterology,per treatment/procedure (estimated),12000,9000,15000,25,20,600,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,General Surgery,per treatment/procedure (estimated),5400,4600,6200,15,12,450,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,General Medicine,per treatment/procedure (estimated),1800,1500,2100,15,4,450,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,Haematology,per treatment/procedure (estimated),6800,5800,7800,15,15,450,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,Nephrology,per treatment/procedure (estimated),10800,8100,13500,25,18,600,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,Neurology,per treatment/procedure (estimated),9000,7600,10400,15,15,600,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,Obstetrics and Gynaecology,per treatment/procedure (estimated),11200,8400,14000,25,25,450,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,Ophthalmology,per treatment/procedure (estimated),6000,5100,6900,15,12,500,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,Orthopaedics,per treatment/procedure (estimated),13800,10400,17200,25,25,550,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,Paediatrics,per treatment/procedure (estimated),2200,1900,2500,15,5,450,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,Physiotherapy,per treatment/procedure (estimated),900,800,1000,15,3,300,Hospital-specific public-fee calibration where available
+H046,C.S.I.Kalyani Multi Speciality Hospital,Plastic Surgery,per treatment/procedure (estimated),19500,14600,24400,25,30,650,Hospital-specific public-fee calibration where available
+H047,Deepam Hospital (P) Ltd.,Dentistry,per treatment/procedure (estimated),2700,2300,3100,15,6,450,Hospital-specific public-fee calibration where available
+H047,Deepam Hospital (P) Ltd.,Dermatology,per treatment/procedure (estimated),4200,3600,4800,15,7,600,Hospital-specific public-fee calibration where available
+H047,Deepam Hospital (P) Ltd.,Emergency Medicine,per treatment/procedure (estimated),4800,4100,5500,15,8,600,Hospital-specific public-fee calibration where available
+H047,Deepam Hospital (P) Ltd.,Neonatology,per treatment/procedure (estimated),11000,9400,12600,15,20,550,Hospital-specific public-fee calibration where available
+H047,Deepam Hospital (P) Ltd.,ENT,per treatment/procedure (estimated),4800,4100,5500,15,8,600,Hospital-specific public-fee calibration where available
+H047,Deepam Hospital (P) Ltd.,Nephrology,per treatment/procedure (estimated),12600,9400,15800,25,18,700,Hospital-specific public-fee calibration where available
+H047,Deepam Hospital (P) Ltd.,Obstetrics and Gynaecology,per treatment/procedure (estimated),13800,10400,17200,25,25,550,Hospital-specific public-fee calibration where available
+H047,Deepam Hospital (P) Ltd.,Ophthalmology,per treatment/procedure (estimated),7200,6100,8300,15,12,600,Hospital-specific public-fee calibration where available
+H047,Deepam Hospital (P) Ltd.,Urology,per treatment/procedure (estimated),17500,13100,21900,25,25,700,Hospital-specific public-fee calibration where available
+H047,Deepam Hospital (P) Ltd.,Pulmonology,per treatment/procedure (estimated),8200,7000,9400,15,15,550,Hospital-specific public-fee calibration where available
+H047,Deepam Hospital (P) Ltd.,Plastic Surgery,per treatment/procedure (estimated),24000,18000,30000,25,30,800,Hospital-specific public-fee calibration where available
+H047,Deepam Hospital (P) Ltd.,Critical Care,per treatment/procedure (estimated),24000,18000,30000,25,30,800,Hospital-specific public-fee calibration where available
+H047,Deepam Hospital (P) Ltd.,Paediatrics,per treatment/procedure (estimated),2800,2400,3200,15,5,550,Hospital-specific public-fee calibration where available
+H047,Deepam Hospital (P) Ltd.,Endocrinology,per treatment/procedure (estimated),4900,4200,5600,15,7,700,Hospital-specific public-fee calibration where available
+H047,Deepam Hospital (P) Ltd.,General Medicine,per treatment/procedure (estimated),2200,1900,2500,15,4,550,Hospital-specific public-fee calibration where available
+H048,Eswar Medical Foundation,Nephrology,per treatment/procedure (estimated),12600,9400,15800,25,18,700,Hospital-specific public-fee calibration where available
+H048,Eswar Medical Foundation,Urology,per treatment/procedure (estimated),17500,13100,21900,25,25,700,Hospital-specific public-fee calibration where available
+H048,Eswar Medical Foundation,Orthopaedics,per treatment/procedure (estimated),16200,12200,20200,25,25,650,Hospital-specific public-fee calibration where available
+H048,Eswar Medical Foundation,Emergency Medicine,per treatment/procedure (estimated),4800,4100,5500,15,8,600,Hospital-specific public-fee calibration where available
+H049,Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd,Diabetology,per treatment/procedure (estimated),3000,2600,3400,15,5,600,Hospital-specific public-fee calibration where available
+H049,Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd,Cardiology,per treatment/procedure (estimated),12600,10700,14500,15,18,700,Hospital-specific public-fee calibration where available
+H049,Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd,Nephrology,per treatment/procedure (estimated),12600,9400,15800,25,18,700,Hospital-specific public-fee calibration where available
+H049,Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd,Neurology,per treatment/procedure (estimated),10500,8900,12100,15,15,700,Hospital-specific public-fee calibration where available
+H049,Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd,Medical Oncology,per treatment/procedure (estimated),30000,22500,37500,25,40,750,Hospital-specific public-fee calibration where available
+H049,Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd,Gastroenterology,per treatment/procedure (estimated),14000,10500,17500,25,20,700,Hospital-specific public-fee calibration where available
+H049,Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd,Paediatrics,per treatment/procedure (estimated),2800,2400,3200,15,5,550,Hospital-specific public-fee calibration where available
+H049,Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd,Pulmonology,per treatment/procedure (estimated),8200,7000,9400,15,15,550,Hospital-specific public-fee calibration where available
+H049,Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd,Psychiatry,per treatment/procedure (estimated),3600,3100,4100,15,6,600,Hospital-specific public-fee calibration where available
+H049,Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd,Dermatology,per treatment/procedure (estimated),4200,3600,4800,15,7,600,Hospital-specific public-fee calibration where available
+H049,Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd,Oncology,per treatment/procedure (estimated),19200,14400,24000,25,35,550,Hospital-specific public-fee calibration where available
+H049,Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd,Orthopaedics,per treatment/procedure (estimated),16200,12200,20200,25,25,650,Hospital-specific public-fee calibration where available
+H049,Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd,Urology,per treatment/procedure (estimated),17500,13100,21900,25,25,700,Hospital-specific public-fee calibration where available
+H049,Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd,Neurosurgery,per treatment/procedure (estimated),63800,47800,79800,25,75,850,Hospital-specific public-fee calibration where available
+H049,Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd,Ophthalmology,per treatment/procedure (estimated),7200,6100,8300,15,12,600,Hospital-specific public-fee calibration where available
+H049,Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd,ENT,per treatment/procedure (estimated),4800,4100,5500,15,8,600,Hospital-specific public-fee calibration where available
+H049,Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd,Obstetrics and Gynaecology,per treatment/procedure (estimated),13800,10400,17200,25,25,550,Hospital-specific public-fee calibration where available
+H049,Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd,Vascular Surgery,per treatment/procedure (estimated),26200,19600,32800,25,35,750,Hospital-specific public-fee calibration where available
+H049,Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd,Cardiothoracic Surgery,per treatment/procedure (estimated),58500,43900,73100,25,65,900,Hospital-specific public-fee calibration where available
+H049,Hari Haran Diabetes and Heart Care Hospitals Pvt Ltd,Plastic Surgery,per treatment/procedure (estimated),24000,18000,30000,25,30,800,Hospital-specific public-fee calibration where available
